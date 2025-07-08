@@ -27,7 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Assistant Professor in the Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology, Stockholm, Sweden. I am also a Digital Futures Fellow and a a Wallenberg AI, Autonomous Systems and Software Program (WASP) Faculty. From 2021 to 2024, I was first a Postdoc and then a Senior Scientist in the Automatic Control Laboratory (ifA) at ETH Zurich, Switzerland. I obtained my Bachelor's and Master's degrees (cum laude) at the University of Padova, Italy, in 2012 and 2015, respectively; and my PhD in automatic control from Eindhoven University of Technology, The Netherlands, in 2020. I was also a visiting scholar at Arizona State University (ASU), USA, in 2019; and an researcher at the Automatica group at the University of Padova, Italy, in 2016.
+
+You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
