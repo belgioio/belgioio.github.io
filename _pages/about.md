@@ -33,6 +33,6 @@ I am an Assistant Professor at the **Division of Decision and Control Systems (D
 
 **1. Designing novel algorithms and numerical methods** to enable effective deployment of smart control mechanisms (such as demand-side management, real-time voltage control, and autonomous energy trading in smart grids);
 
-**2. Developing a solid theoretical framework** to certify reliability, performance, and fairness of these smart control mechanisms
+**2. Developing a solid theoretical framework** to certify reliability, performance, and fairness of these smart control mechanisms;
 
 **3. Driving technological advancements** through the integration of the methods developed in (1) and validated in (2) into real-world energy systems, through collaborations with industrial partners.
