@@ -1,9 +1,8 @@
 ---
 layout: about
-title: Assistant Professor
+title: About
 permalink: /
-subtitle:  <p> <a href='#'> KTH Royal Institute of Technology & Digital Futures </a>.  <p>
-           <p> giubel (at) kth .se  <p>
+subtitle:   giubel(at)kth.se  <p>
 
 profile:
   align: right
@@ -28,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Professor at the Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology, Stockholm, Sweden. I am also a Digital Futures Fellow and a a Wallenberg AI, Autonomous Systems and Software Program (WASP) Faculty. Prior to join KTH, I was a Senior Scientist at the Automatic Control Laboratory (ifA) at ETH Zurich, Switzerland. 
+I am an Assistant Professor at the **Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology**, Sweden. I am also a **Digital Futures Fellow** and a **Wallenberg AI, Autonomous Systems and Software Program (WASP) Faculty**. Prior to join KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich**, Switzerland. 
 
 You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
