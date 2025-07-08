@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Professor in the Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology, Stockholm, Sweden. I am also a Digital Futures Fellow and a a Wallenberg AI, Autonomous Systems and Software Program (WASP) Faculty. From 2021 to 2024, I was first a Postdoc and then a Senior Scientist in the Automatic Control Laboratory (ifA) at ETH Zurich, Switzerland. I obtained my Bachelor's and Master's degrees (cum laude) at the University of Padova, Italy, in 2012 and 2015, respectively; and my PhD in automatic control from Eindhoven University of Technology, The Netherlands, in 2020. I was also a visiting scholar at Arizona State University (ASU), USA, in 2019; and an researcher at the Automatica group at the University of Padova, Italy, in 2016.
+I am an Assistant Professor at the Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology, Stockholm, Sweden. I am also a Digital Futures Fellow and a a Wallenberg AI, Autonomous Systems and Software Program (WASP) Faculty. Prior to join KTH, I was a Senior Scientist at the Automatic Control Laboratory (ifA) at ETH Zurich, Switzerland. 
 
 You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
