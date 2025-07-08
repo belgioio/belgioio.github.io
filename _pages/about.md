@@ -27,12 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Professor at the **Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology**, Sweden. I am also a **Digital Futures Fellow** and a **Affiliated Faculty of the Wallenberg AI, Autonomous Systems and Software Program (WASP)**. Prior to joining KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich**, Switzerland. 
+I am an **Assistant Professor** at the **Division of Decision and Control Systems (DCS)** at **KTH Royal Institute of Technology**, Sweden. I am also a **Digital Futures Fellow** and a faculty member of the **Wallenberg AI, Autonomous Systems and Software Program (WASP)**. Prior to joining KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich**, Switzerland. 
 
-**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructur systems such as electrical power grids. **My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
+**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructures such as electrical power grids and transportation networks. **My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
 
-**1. Designing novel algorithms** to enable effective deployment of smart control mechanisms (such as demand-side management, real-time voltage control, and autonomous energy trading in smart grids);
+**1. Designing novel algorithms** to enable effective deployment of smart coordination and control mechanisms;
 
-**2. Developing a solid theoretical framework** to certify reliability, performance, and fairness of these smart control mechanisms;
+**2. Developing a solid theoretical framework to certify reliability**, performance, and fairness;
 
-**3. Driving technological advancements** through the integration of the methods developed in (1) and validated in (2) into real-world energy systems, through collaborations with industrial partners.
+**3. Driving technological advancements** through the integration of the methods developed in (1) and validated in (2) in vivo, through collaborations with industrial partners.
