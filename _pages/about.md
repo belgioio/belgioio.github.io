@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:   giubel(at)kth.se  <p>
+subtitle:   giubel (at) kth (dot) se  <p>
 
 profile:
   align: right
@@ -27,8 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Professor at the **Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology**, Sweden. I am also a **Digital Futures Fellow** and a **Wallenberg AI, Autonomous Systems and Software Program (WASP) Faculty**. Prior to join KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich**, Switzerland. 
+I am an Assistant Professor at the **Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology**, Sweden. I am also a **Digital Futures Fellow** and a **Affiliated Faculty of the Wallenberg AI, Autonomous Systems and Software Program (WASP)**. Prior to joining KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich**, Switzerland. 
 
-#Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render #your [publications page](/al-folio/publications/) automatically.
+# Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-#Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, #Google Scholar, or just disable all of them.
+# Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructur systems such as electrical power grids. **My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
+
+**1. Designing novel algorithms and numerical methods** to enable effective deployment of smart control mechanisms (such as demand-side management, real-time voltage control, and autonomous energy trading in smart grids);
+
+**2. Developing a solid theoretical framework** to certify reliability, performance, and fairness of these smart control mechanisms
+
+**3. Driving technological advancements** through the integration of the methods developed in (1) and validated in (2) into real-world energy systems, through collaborations with industrial partners.
