@@ -31,7 +31,7 @@ I am an Assistant Professor at the **Division of Decision and Control Systems (D
 
 **My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructur systems such as electrical power grids. **My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
 
-**1. Designing novel algorithms and numerical methods** to enable effective deployment of smart control mechanisms (such as demand-side management, real-time voltage control, and autonomous energy trading in smart grids);
+**1. Designing novel algorithms** to enable effective deployment of smart control mechanisms (such as demand-side management, real-time voltage control, and autonomous energy trading in smart grids);
 
 **2. Developing a solid theoretical framework** to certify reliability, performance, and fairness of these smart control mechanisms;
 
