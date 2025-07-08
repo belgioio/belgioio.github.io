@@ -2,7 +2,8 @@
 layout: about
 title: Assistant Professor
 permalink: /
-subtitle: <a href='#'>KTH Royal Institute of Technology & Digital Futures</a>. giubel (at) kth .se
+subtitle:  <p> <a href='#'> KTH Royal Institute of Technology & Digital Futures </a>.  <p>
+           <p> giubel (at) kth .se  <p>
 
 profile:
   align: right
@@ -10,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Q building, room B:608</p>
-    <p>Malvinas v 10</p>
+    <p>Malvinas vag 10</p>
     <p>Stockholm, Sweden</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
