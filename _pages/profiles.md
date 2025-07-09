@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: My team
+title: Team
 description: I am privileged to work with an outstanding research team! We're a rapidly growing with everyone being either formally co-advised or being integrated through various collaborations.
 nav: true
 nav_order: 7
