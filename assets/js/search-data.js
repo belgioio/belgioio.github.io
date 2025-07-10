@@ -462,11 +462,18 @@ ninja.data = [{
           window.open("mailto:%67%69%75%62%65%6C@%6B%74%68.%73%65", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-gitlab',
+        title: 'GitLab',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/495843108", "_blank");
+          window.open("https://gitlab.com/belgioio", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/Giuseppe Belgioioso", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -474,6 +481,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=ck0wft8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-scopus',
+        title: 'Scopus',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=56692853600", "_blank");
         },
       },{
       id: 'light-theme',
