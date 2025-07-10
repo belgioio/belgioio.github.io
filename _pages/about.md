@@ -2,9 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle:    <p>giubel (at) kth (dot) se  </p> 
+subtitle:   <p>Division of Decision and Control Systems</p>
  <p>KTH Royal Institute of Technology</p> 
- <p>Division of Decision and Control Systems</p> 
+ <p>giubel (at) kth (dot) se  </p> 
  
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room B:608, Q Building</p>
-    <p>Malvinas vag 10, 100 44 Stockholm</p>
+    <p>Malvinas vag 10, 100 44 Stockholm Sweden </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,12 +30,14 @@ latest_posts:
 
 I am an **Assistant Professor** at the **Division of Decision and Control Systems (DCS)** at **KTH Royal Institute of Technology** in Stockholm, Sweden. I am also a **Digital Futures Fellow** and a faculty member of the **Wallenberg AI, Autonomous Systems and Software Program (WASP)**. Prior to joining KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich** in Switzerland. 
 
-**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructures such as **electrical power grids** and transportation networks. **My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
+**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructures such as **electrical power grids** and transportation networks.
 
-1. **Designing novel algorithms** to enable effective deployment of smart control mechanisms;
+**My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
 
-2. **Developing a solid theoretical framework** to certify their reliability;
+1. **Designing novel algorithms** inspired by optimization and game theory;
 
-3. **Driving technological advancements** through the integration of the methods developed in (1) and theoretically validated in (2) into the wild.
+2. **Developing a solid theoretical framework** to certify their reliability and fairness;
+
+3. **Driving technological advancements** through their integration into the wild.
 
 
