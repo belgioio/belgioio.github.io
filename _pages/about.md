@@ -28,16 +28,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an **Assistant Professor** at the **Division of Decision and Control Systems (DCS)** at **KTH Royal Institute of Technology** in Stockholm, Sweden. I am also a **Digital Futures Fellow** and a faculty member of the **Wallenberg AI, Autonomous Systems and Software Program (WASP)**. Prior to joining KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich** in Switzerland. 
+## About me
 
-**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructures such as **electrical power grids** and transportation networks.
+I am an Assistant Professor at the Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology in Stockholm, Sweden. I am also a Digital Futures Fellow and a faculty member of the Wallenberg AI, Autonomous Systems and Software Program (WASP). Prior to joining KTH, I was a Senior Scientist at the Automatic Control Laboratory (ifA) at ETH Zurich in Switzerland. 
 
-**My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
+## My research
 
-1. **Designing novel algorithms** inspired by optimization and game theory;
+My research is primarily focused on the interplay of automatic control, optimization, and game theory with applications to complex systems, especially large-scale infrastructures such as electrical power grids and transportation networks.
+My ultimate goal is to improve their efficiency, reliability, and fairness by:
 
-2. **Developing a solid theoretical framework** to certify their reliability and fairness;
+1. Designing novel algorithms inspired by optimization and game theory;
 
-3. **Driving technological advancements** through their integration into the wild.
+2. Developing a solid theoretical framework to certify their reliability and fairness;
+
+3. Driving technological advancements through their integration into the wild.
 
 
