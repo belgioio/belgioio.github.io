@@ -462,18 +462,18 @@ ninja.data = [{
           window.open("mailto:%67%69%75%62%65%6C@%6B%74%68.%73%65", "_blank");
         },
       },{
-        id: 'social-gitlab',
-        title: 'GitLab',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://gitlab.com/belgioio", "_blank");
+          window.open("https://github.com/belgioio# your GitHub user name", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Giuseppe Belgioioso", "_blank");
+          window.open("https://www.linkedin.com/in/495843108", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -488,6 +488,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.scopus.com/authid/detail.uri?authorId=56692853600", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kth.se/profile/giubel", "_blank");
         },
       },{
       id: 'light-theme',
