@@ -10,7 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room B:608, Q Building</p>
-    <p>Malvinas vag 10, 100 44 Stockholm Sweden </p>
+    <p>Malvinas vag 10, SE-100 44 <p>
+    <p>Stockholm, Sweden </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
