@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle:   <p>Division of Decision and Control Systems</p>
  <p>KTH Royal Institute of Technology</p> 
- <p>giubel (at) kth (dot) se  </p> 
+ <p> giubel (at) kth (dot) se  </p> 
  
 profile:
   align: right
@@ -28,11 +28,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## About me
+### About me
 
 I am an Assistant Professor at the Division of Decision and Control Systems (DCS) at KTH Royal Institute of Technology in Stockholm, Sweden. I am also a Digital Futures Fellow and a faculty member of the Wallenberg AI, Autonomous Systems and Software Program (WASP). Prior to joining KTH, I was a Senior Scientist at the Automatic Control Laboratory (ifA) at ETH Zurich in Switzerland. 
 
-## My research
+### My research
 
 My research is primarily focused on the interplay of automatic control, optimization, and game theory with applications to complex systems, especially large-scale infrastructures such as electrical power grids and transportation networks.
 My ultimate goal is to improve their efficiency, reliability, and fairness by:
