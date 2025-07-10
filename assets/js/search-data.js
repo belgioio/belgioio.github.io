@@ -473,7 +473,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/495843108", "_blank");
+          window.open("https://www.linkedin.com/in/giuseppe-belgioioso-495843108", "_blank");
         },
       },{
         id: 'social-scholar',
