@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:    giubel (at) kth (dot) se   
+subtitle:  KTH Royal Institute of Technolohgy,  **giubel (at) kth (dot) se**   
  
 profile:
   align: right
