@@ -23,14 +23,14 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an **Assistant Professor** at the **Division of Decision and Control Systems (DCS)** at **KTH Royal Institute of Technology** in Stockholm, Sweden. I am also a **Digital Futures Fellow** and a faculty member of the **Wallenberg AI, Autonomous Systems and Software Program (WASP)**. Prior to joining KTH, I was a Postdoc (first) and Senior Scientist (then) at the **Automatic Control Laboratory (ifA) at ETH Zurich**, Switzerland. 
+I am an **Assistant Professor** at the **Division of Decision and Control Systems (DCS)** at **KTH Royal Institute of Technology** in Stockholm, Sweden. I am also a **Digital Futures Fellow** and a faculty member of the **Wallenberg AI, Autonomous Systems and Software Program (WASP)**. Prior to joining KTH, I was a Senior Scientist at the **Automatic Control Laboratory (ifA) at ETH Zurich** in Switzerland. 
 
-**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructures such as **electrical power grids** and transportation networks. My ultimate goal is to improve their efficiency, reliability, and fairness by:
+**My research** is primarily focused on the interplay of **automatic control, optimization, and game theory with applications to complex systems**, especially large-scale infrastructures such as **electrical power grids** and transportation networks. **My ultimate goal** is to improve their **efficiency, reliability, and fairness** by:
 
 1. **Designing novel algorithms** to enable effective deployment of smart control mechanisms;
 
