@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  KTH Royal Institute of Technolohgy,  **giubel (at) kth (dot) se**   
+subtitle:   Division of Decision and Control Systems, KTH Royal Institute of Technolohgy  <p> giubel (at) kth (dot) se  
  
 profile:
   align: right
