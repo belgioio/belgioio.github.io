@@ -7,7 +7,7 @@ subtitle:   Division of Decision and Control Systems, KTH Royal Institute of Tec
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room B:608, Q Building</p>
     <p>Malvinas vag 10, 100 44 Stockholm Sweden </p>
