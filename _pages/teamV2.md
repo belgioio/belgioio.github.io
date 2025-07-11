@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+<img src="/assets/img/group_bw.JPG" alt="KTH campus, June 2025" style="width: 100%; height: auto; object-fit: cover; margin-bottom: 2rem;">
+
 <div class="container">
   <!-- PhD Students -->
   <h4 class="mt-5 mb-3">Doctoral candidates</h4>
