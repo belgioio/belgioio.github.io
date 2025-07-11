@@ -200,7 +200,6 @@ exclude:
   - _pages/cv.md
   - _pages/teaching.md
   - _pages/profiles.md
-  - _pages/projects.md
   - _pages/team.md
   
 keep_files:
