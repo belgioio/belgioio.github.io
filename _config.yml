@@ -153,6 +153,7 @@ collections:
     output: true
   team:
     output: true
+    permalink: /team/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
