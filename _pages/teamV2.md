@@ -8,37 +8,35 @@ nav_order: 3
 ---
 
 <div class="container">
+  <!-- PhD Students -->
+  <h2 class="mt-5">PhD Students</h2>
   <div class="row row-cols-1 row-cols-md-3 g-4">
-
-    <!-- Daniel Tihanyi -->
     <div class="col">
-      <div class="card h-100 text-center">
-        <a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">
-          <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Jane Doe" style="object-fit: cover; height: 240px;">
-        </a>
+      <div class="card h-100 text-center border-0">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; height: 300px;">
         <div class="card-body">
-          <h5 class="card-title">Daniel Tihanyi</h5>
-          <p class="card-text">PhD Student</p>
-          <p><a href="mailto:tihanyi@kth.se">jane@example.com</a></p>
+          <h5 class="card-title"><a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">Daniel Tihanyi</a></h5>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Sophie Hall -->
+  <!-- Postdocs -->
+  <h2 class="mt-5">Postdoctoral Researchers</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
-      <div class="card h-100 text-center">
-        <a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">
-          <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Jane Doe" style="object-fit: cover; height: 240px;">
-        </a>
+      <div class="card h-100 text-center border-0">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Sophie Hall" style="object-fit: cover; height: 300px;">
         <div class="card-body">
-          <h5 class="card-title">Daniel Tihanyi</h5>
-          <p class="card-text">PhD Student</p>
-          <p><a href="mailto:tihanyi@kth.se">mailto:tihanyi@kth.se</a></p>
+          <h5 class="card-title"><a href="https://www.kth.se/profile/sophie" target="_blank">Sophie Hall</a></h5>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Add more people using the same structure -->
-
+  <!-- Research Assistants -->
+  <h2 class="mt-5">Research Assistants</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- Add cards here -->
   </div>
 </div>
