@@ -9,6 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>KTH Royal Institute of Technology<p>
+    <p>Division of Decision and Control Systems<p>
     <p>Room B:608, Q Building</p>
     <p>Malvinas vag 10, SE-100 44 <p>
     <p>Stockholm, Sweden </p>
