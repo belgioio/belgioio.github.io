@@ -10,8 +10,8 @@ nav_order: 3
 <div class="container">
   <!-- PhD Students -->
   <h2 class="mt-5">PhD Students</h2>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
+  <div class="row g-4">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -19,7 +19,7 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 1" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -27,7 +27,7 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 2" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -35,7 +35,7 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 3" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -43,7 +43,7 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 4" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -55,8 +55,8 @@ nav_order: 3
 
   <!-- Postdocs -->
   <h2 class="mt-5">Postdoctoral Researchers</h2>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
+  <div class="row g-4">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 1" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -64,7 +64,7 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 2" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -72,7 +72,7 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-4">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 3" style="object-fit: cover; height: 300px;">
         <div class="card-body">
@@ -84,8 +84,9 @@ nav_order: 3
 
   <!-- Research Assistants -->
   <h2 class="mt-5">Research Assistants</h2>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="row g-4">
     <!-- Add cards here -->
   </div>
 </div>
+
 
