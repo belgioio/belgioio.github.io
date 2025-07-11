@@ -36,11 +36,12 @@ Previously, I was a Senior Scientist at the Automatic Control Laboratory (ifA) a
 ### My research
 
 My research is primarily focused on the interplay of automatic control, optimization, and game theory with applications to complex systems, especially large-scale infrastructures such as electrical power grids and transportation networks.
+
 My ultimate goal is to improve their efficiency, reliability, and fairness by:
 
 1. Designing novel algorithms inspired by optimization and game theory;
 
-2. Developing a solid theoretical framework to certify their reliability and fairness;
+2. Developing a solid theoretical framework to certify reliability and fairness;
 
 3. Driving technological advancements via industry collaborations.
 
