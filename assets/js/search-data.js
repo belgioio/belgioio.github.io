@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/team/";
           },
         },{id: "nav-my-team",
-          title: "My Team",
+          title: "My team",
           description: "I am privileged to work with an outstanding research team! We&#39;re rapidly growing in size, with everyone either formally co-advised or integrated through various collaborations.",
           section: "Navigation",
           handler: () => {
