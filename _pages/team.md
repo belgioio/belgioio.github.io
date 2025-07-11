@@ -9,7 +9,7 @@ display_categories: [Doctoral candidates, Postodoctoral researchers, Research as
 horizontal: false
 ---
 
-<!-- pages/my Team.md -->
+<!-- pages/team.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized team members -->
