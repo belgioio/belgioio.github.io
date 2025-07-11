@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Team
+title: My team
 permalink: /team/
 description: I am privileged to work with an outstanding research team! We're a rapidly growing in size, with everyone being either formally co-advised or being integrated through various collaborations.
 nav: true
@@ -9,7 +9,7 @@ display_categories: [Doctoral candidates, Postodoctoral researchers, Research as
 horizontal: false
 ---
 
-<!-- pages/My Team.md -->
+<!-- pages/my Team.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized team members -->
