@@ -18,59 +18,48 @@ nav_order: 3
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">Daniel Tihanyi</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Dimos Dimarogonas)</p>
         </div>
       </div>
     </div>
     <!-- END: Daniel Tihanyi -->
 
-    <!-- START: PhD Student 1 -->
+    <!-- START: Sophie Hall -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 1" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Sophie Hall" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
-          <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 1</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
-        </div>
-      </div>
-    </div>
-    <!-- END: PhD Student 1 -->
-
-    <!-- START: PhD Student 2 -->
-    <div class="col-md-3">
-      <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 2" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
-        <div class="card-body">
-          <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 2</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
+          <h5 class="card-title mb-1"><a href="https://control.ee.ethz.ch/people/profile.sophie-hall.html" target="_blank">Sophie Hall</a></h5>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Florian Dorfler and Dominic Liao-McPherson)</p>
         </div>
       </div>
     </div>
     <!-- END: PhD Student 2 -->
 
-    <!-- START: PhD Student 3 -->
+    <!-- START: Tommaso Zaccherini -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 3" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Tommaso Zaccherini" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
-          <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 3</a></h5>
+          <h5 class="card-title mb-1"><a href="https://www.kth.se/profile/tommasoz" target="_blank">Tommaso Zaccherini</a></h5>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Dimos Dimarogonas and Siyuan Liu)</p>
+        </div>
+      </div>
+    </div>
+    <!-- END: PhD Student 2 -->
+
+    <!-- START: Jonas Matt-->
+    <div class="col-md-3">
+      <div class="card h-100 text-center border-0">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Jonas Matt" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
+        <div class="card-body">
+          <h5 class="card-title mb-1"><a href="https://jgmatt.github.io/" target="_blank">Jonas Matt</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
         </div>
       </div>
     </div>
     <!-- END: PhD Student 3 -->
 
-    <!-- START: PhD Student 4 -->
-    <div class="col-md-3">
-      <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 4" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
-        <div class="card-body">
-          <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 4</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
-        </div>
-      </div>
-    </div>
-    <!-- END: PhD Student 4 -->
 
   </div>
 
@@ -78,37 +67,37 @@ nav_order: 3
   <h4 class="mt-5 mb-3">Postdoctoral Researchers</h4>
   <div class="row g-4">
 
-    <!-- START: Postdoc 1 -->
+    <!-- START: Emilio Benenati -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 1" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Emilio Benenati" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
-          <h5 class="card-title mb-1"><a href="#" target="_blank">Postdoc 1</a></h5>
+          <h5 class="card-title mb-1"><a href="https://scholar.google.com/citations?user=X9iu8QQAAAAJ&hl=en" target="_blank">Emilio Benenati</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
         </div>
       </div>
     </div>
     <!-- END: Postdoc 1 -->
 
-    <!-- START: Postdoc 2 -->
+    <!-- START: Andrea Martin -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 2" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Andrea Martin" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
-          <h5 class="card-title mb-1"><a href="#" target="_blank">Postdoc 2</a></h5>
+          <h5 class="card-title mb-1"><a href="https://scholar.google.com/citations?user=Ha56r_oAAAAJ&hl=it" target="_blank">Andrea Martin</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
         </div>
       </div>
     </div>
     <!-- END: Postdoc 2 -->
 
-    <!-- START: Postdoc 3 -->
+    <!-- START: Yue Han -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 3" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Yue Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
-          <h5 class="card-title mb-1"><a href="#" target="_blank">Postdoc 3</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
+          <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/yue-han-722213307/?locale=en_US" target="_blank">Yue Han</a></h5>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Abbas Dashtimanesh & Jelena Zdravkovic)</p>
         </div>
       </div>
     </div>
@@ -119,7 +108,14 @@ nav_order: 3
   <!-- Research Assistants -->
   <h4 class="mt-5 mb-3">Research Assistants</h4>
   <div class="row g-4">
-    <!-- Add cards here -->
+          <div class="card h-100 text-center border-0">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Jinyu Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
+        <div class="card-body">
+          <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/jinyu-han-891656313/?originalSubdomain=se" target="_blank">Jinyu Han</a></h5>
+          <p class="text-muted" style="font-size: 0.9em;"> </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
