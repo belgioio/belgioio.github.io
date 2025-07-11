@@ -42,9 +42,7 @@ My research is primarily focused on the interplay of automatic control, optimiza
 My ultimate goal is to improve their efficiency, reliability, and fairness by:
 
 1. Designing novel algorithms inspired by optimization and game theory;
-
 2. Developing a solid theoretical framework to certify reliability and fairness;
-
 3. Driving technological advancements via industry collaborations.
 
-
+<div style="margin-top: 2rem;"></div>
