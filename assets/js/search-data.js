@@ -24,6 +24,13 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-my-team",
+          title: "My Team",
+          description: "I am privileged to work with an outstanding research team! We&#39;re a rapidly growing in size, with everyone being either formally co-advised or being integrated through various collaborations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/myteam/";
+          },
+        },{id: "nav-my-team",
           title: "My team",
           description: "I am privileged to work with an outstanding research team! We&#39;re a rapidly growing with everyone being either formally co-advised or being integrated through various collaborations.",
           section: "Navigation",
