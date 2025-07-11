@@ -9,11 +9,11 @@ nav_order: 3
 
 <div class="container">
   <!-- PhD Students -->
-  <h4 class="mt-5 mb-3">Doctoral candidates</h4>
+  <h4 class="mt-5 mb-3">PhD Students</h4>
   <div class="row g-4">
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">Daniel Tihanyi</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
@@ -22,7 +22,7 @@ nav_order: 3
     </div>
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 1" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 1" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 1</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
@@ -31,7 +31,7 @@ nav_order: 3
     </div>
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 2" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 2" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 2</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
@@ -40,7 +40,7 @@ nav_order: 3
     </div>
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 3" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 3" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 3</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
@@ -49,7 +49,7 @@ nav_order: 3
     </div>
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 4" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 4" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="#" target="_blank">PhD Student 4</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
@@ -63,7 +63,7 @@ nav_order: 3
   <div class="row g-4">
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 1" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 1" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="#" target="_blank">Postdoc 1</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
@@ -72,7 +72,7 @@ nav_order: 3
     </div>
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 2" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 2" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="#" target="_blank">Postdoc 2</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
@@ -81,7 +81,7 @@ nav_order: 3
     </div>
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 3" style="object-fit: cover; height: 300px;">
+        <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 3" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="#" target="_blank">Postdoc 3</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
