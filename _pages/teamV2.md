@@ -10,10 +10,10 @@ nav_order: 3
 <div class="container">
   <!-- PhD Students -->
   <h4 class="mt-5 mb-3">Doctoral candidates</h4>
-  <div class="row g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
 
     <!-- START: Daniel Tihanyi -->
-    <div class="col-md-3">
+    <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
@@ -25,7 +25,7 @@ nav_order: 3
     <!-- END: Daniel Tihanyi -->
 
     <!-- START: Sophie Hall -->
-    <div class="col-md-3">
+    <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Sophie Hall" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
@@ -34,10 +34,10 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <!-- END: PhD Student 2 -->
+    <!-- END: Sophie Hall -->
 
     <!-- START: Tommaso Zaccherini -->
-    <div class="col-md-3">
+    <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Tommaso Zaccherini" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
@@ -46,53 +46,52 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <!-- END: PhD Student 2 -->
+    <!-- END: Tommaso Zaccherini -->
 
-    <!-- START: Jonas Matt-->
-    <div class="col-md-3">
+    <!-- START: Jonas Matt -->
+    <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Jonas Matt" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://jgmatt.github.io/" target="_blank">Jonas Matt</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Saverio Bolognani and Florian Dorfler)</p>
         </div>
       </div>
     </div>
-    <!-- END: PhD Student 3 -->
-
+    <!-- END: Jonas Matt -->
 
   </div>
 
   <!-- Postdocs -->
   <h4 class="mt-5 mb-3">Postdoctoral Researchers</h4>
-  <div class="row g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
 
     <!-- START: Emilio Benenati -->
-    <div class="col-md-3">
+    <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Emilio Benenati" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://scholar.google.com/citations?user=X9iu8QQAAAAJ&hl=en" target="_blank">Emilio Benenati</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
+          <p class="text-muted" style="font-size: 0.9em;"></p>
         </div>
       </div>
     </div>
-    <!-- END: Postdoc 1 -->
+    <!-- END: Emilio Benenati -->
 
     <!-- START: Andrea Martin -->
-    <div class="col-md-3">
+    <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Andrea Martin" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://scholar.google.com/citations?user=Ha56r_oAAAAJ&hl=it" target="_blank">Andrea Martin</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Mikael Johansson)</p>
         </div>
       </div>
     </div>
-    <!-- END: Postdoc 2 -->
+    <!-- END: Andrea Martin -->
 
     <!-- START: Yue Han -->
-    <div class="col-md-3">
+    <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Yue Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
@@ -101,22 +100,23 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <!-- END: Postdoc 3 -->
+    <!-- END: Yue Han -->
 
   </div>
 
   <!-- Research Assistants -->
   <h4 class="mt-5 mb-3">Research Assistants</h4>
-  <div class="row g-4">
-          <div class="card h-100 text-center border-0">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- START: Jinyu Han -->
+    <div class="col">
+      <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Jinyu Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/jinyu-han-891656313/?originalSubdomain=se" target="_blank">Jinyu Han</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;"> </p>
+          <p class="text-muted" style="font-size: 0.9em;"></p>
         </div>
       </div>
     </div>
+    <!-- END: Jinyu Han -->
   </div>
 </div>
-
-
