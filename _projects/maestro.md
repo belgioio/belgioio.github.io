@@ -5,7 +5,7 @@ description: Multi-Agent Energy Systems in Transmission Grid Real-time Operation
 img: assets/img/maestro.jpg
 importance: 1
 category: Collaborations
-related_publications: true
+related_publications: false
 ---
 
 This project investigates the co-design of automated mechanisms and economic incentives to procure complex grid services from distribution system operators when the transmission system operator does not have direct control over distributed resources.
@@ -16,6 +16,6 @@ The availability of these services removes a major roadblock on the path to the 
 
 The proposed research will build on novel computational methods that allow the design and solution of large-scale hierarchical games. The resulting automation-incentive co-design methods will be made computationally scalable and translated into protocols with efficiency, fairness, and safety guarantees.
 
-[Link to project website]([https://example.com](https://maestro.control.ee.ethz.ch/))
+[Link to project website](https://maestro.control.ee.ethz.ch/)
 
 
