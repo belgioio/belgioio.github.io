@@ -1,0 +1,9 @@
+<div class="card shadow-sm mb-4 text-center">
+  <a href="{{ person.link }}" target="_blank">
+    <img class="card-img-top" src="{{ person.image }}" alt="{{ person.name }}" style="object-fit: cover; height: 200px;">
+  </a>
+  <div class="card-body">
+    <h5 class="card-title mb-1">{{ person.name }}</h5>
+    <p class="card-text">{{ person.position }}</p>
+  </div>
+</div>
