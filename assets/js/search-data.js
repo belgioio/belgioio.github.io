@@ -462,6 +462,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-maestro",
+          title: 'MAESTRO',
+          description: "Multi-Agent Energy Systems in Transmission Grid Real-time Operation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/maestro/";
             },},{
         id: 'social-email',
         title: 'email',
