@@ -419,7 +419,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-ve-launched-my-personal-website-still-under-construction-️",
           title: 'I’ve launched my personal website! ✨ Still under construction 🛠️',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_daniel/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
