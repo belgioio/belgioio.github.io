@@ -9,7 +9,7 @@ nav_order: 3
 
 <div class="container">
   <!-- PhD Students -->
-  <h4 class="mt-5 mb-3">PhD Students</h4>
+  <h4 class="mt-5 mb-3">Doctoral candidates</h4>
   <div class="row g-4">
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
