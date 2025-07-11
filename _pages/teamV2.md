@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Team
-permalink: /team/
+permalink: /teamV2/
 description: I am privileged to work with an outstanding research team! We're rapidly growing in size, with everyone either formally co-advised or integrated through various collaborations.
 nav: true
 nav_order: 3
