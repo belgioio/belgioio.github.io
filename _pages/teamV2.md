@@ -11,6 +11,8 @@ nav_order: 3
   <!-- PhD Students -->
   <h4 class="mt-5 mb-3">Doctoral candidates</h4>
   <div class="row g-4">
+
+    <!-- START: Daniel Tihanyi -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -20,6 +22,9 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: Daniel Tihanyi -->
+
+    <!-- START: PhD Student 1 -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 1" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -29,6 +34,9 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: PhD Student 1 -->
+
+    <!-- START: PhD Student 2 -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 2" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -38,6 +46,9 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: PhD Student 2 -->
+
+    <!-- START: PhD Student 3 -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 3" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -47,6 +58,9 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: PhD Student 3 -->
+
+    <!-- START: PhD Student 4 -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="PhD Student 4" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -56,11 +70,15 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: PhD Student 4 -->
+
   </div>
 
   <!-- Postdocs -->
   <h4 class="mt-5 mb-3">Postdoctoral Researchers</h4>
   <div class="row g-4">
+
+    <!-- START: Postdoc 1 -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 1" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -70,6 +88,9 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: Postdoc 1 -->
+
+    <!-- START: Postdoc 2 -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 2" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -79,6 +100,9 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: Postdoc 2 -->
+
+    <!-- START: Postdoc 3 -->
     <div class="col-md-3">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Postdoc 3" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1; object-position: center;">
@@ -88,6 +112,8 @@ nav_order: 3
         </div>
       </div>
     </div>
+    <!-- END: Postdoc 3 -->
+
   </div>
 
   <!-- Research Assistants -->
