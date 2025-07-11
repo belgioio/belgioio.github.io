@@ -9,7 +9,7 @@ nav_order: 3
 
 <div class="container">
   <!-- PhD Students -->
-  <h2 class="mt-5">PhD Students</h2>
+  <h2 class="mt-5 mb-4">PhD Students</h2>
   <div class="row g-4">
     <div class="col-md-4">
       <div class="card h-100 text-center border-0">
@@ -54,7 +54,7 @@ nav_order: 3
   </div>
 
   <!-- Postdocs -->
-  <h2 class="mt-5">Postdoctoral Researchers</h2>
+  <h2 class="mt-5 mb-4">Postdoctoral Researchers</h2>
   <div class="row g-4">
     <div class="col-md-4">
       <div class="card h-100 text-center border-0">
@@ -83,7 +83,7 @@ nav_order: 3
   </div>
 
   <!-- Research Assistants -->
-  <h2 class="mt-5">Research Assistants</h2>
+  <h2 class="mt-5 mb-4">Research Assistants</h2>
   <div class="row g-4">
     <!-- Add cards here -->
   </div>
