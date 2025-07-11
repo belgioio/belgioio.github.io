@@ -10,30 +10,30 @@ nav_order: 3
 <div class="container">
   <div class="row row-cols-1 row-cols-md-3 g-4">
 
-    <!-- Team Member 1 -->
+    <!-- Daniel Tihanyi -->
     <div class="col">
       <div class="card h-100 text-center">
-        <a href="https://example.com/jane" target="_blank">
-          <img src="/assets/img/team/jane.jpg" class="card-img-top" alt="Jane Doe" style="object-fit: cover; height: 240px;">
+        <a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">
+          <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Jane Doe" style="object-fit: cover; height: 240px;">
         </a>
         <div class="card-body">
-          <h5 class="card-title">Jane Doe</h5>
-          <p class="card-text">Postdoctoral Researcher</p>
-          <p><a href="mailto:jane@example.com">jane@example.com</a></p>
+          <h5 class="card-title">Daniel Tihanyi</h5>
+          <p class="card-text">PhD Student</p>
+          <p><a href="mailto:tihanyi@kth.se">jane@example.com</a></p>
         </div>
       </div>
     </div>
 
-    <!-- Team Member 2 -->
+    <!-- Sophie Hall -->
     <div class="col">
       <div class="card h-100 text-center">
-        <a href="https://example.com/john" target="_blank">
-          <img src="/assets/img/team/john.jpg" class="card-img-top" alt="John Smith" style="object-fit: cover; height: 240px;">
+        <a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">
+          <img src="/assets/img/prof_pic.jpg" class="card-img-top" alt="Jane Doe" style="object-fit: cover; height: 240px;">
         </a>
         <div class="card-body">
-          <h5 class="card-title">John Smith</h5>
-          <p class="card-text">Doctoral Candidate</p>
-          <p><a href="mailto:john@example.com">john@example.com</a></p>
+          <h5 class="card-title">Daniel Tihanyi</h5>
+          <p class="card-text">PhD Student</p>
+          <p><a href="mailto:tihanyi@kth.se">mailto:tihanyi@kth.se</a></p>
         </div>
       </div>
     </div>
