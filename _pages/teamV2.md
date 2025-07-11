@@ -2,12 +2,17 @@
 layout: page
 title: My team
 permalink: /teamV2/
-description: I am privileged to work with an outstanding research team! We're rapidly growing in size, with everyone either formally co-advised or integrated through various collaborations.
+description: I am privileged to work with an outstanding research team! We're rapidly growing in size, with everyone either formally co-advised or integrated through various collaborations. **We're currently looking for a PhD student to join us. A call for the vacancy will be advertised in September.**
 nav: true
 nav_order: 3
 ---
 
-<img src="/assets/img/group_bw.JPG" alt="KTH campus, June 2025" style="width: 100%; height: auto; object-fit: cover; margin-bottom: 2rem;">
+<figure style="margin-bottom: 2rem;">
+  <img src="/assets/img/group_bw.JPG" alt="KTH campus, June 2025" style="width: 100%; height: auto; object-fit: cover;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: #6c757d; margin-top: 0.5rem;">
+    Group photo taken at KTH campus, June 2025
+  </figcaption>
+</figure>
 
 <div class="container">
   <!-- PhD Students -->
