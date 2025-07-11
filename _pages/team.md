@@ -1,15 +1,15 @@
 ---
 layout: page
 title: My Team
-permalink: /myteam/
+permalink: /team/
 description: I am privileged to work with an outstanding research team! We're a rapidly growing in size, with everyone being either formally co-advised or being integrated through various collaborations.
 nav: true
 nav_order: 3
-display_categories: [Doctoral Candidates, Postodoctoral Researchers, Research Assistants, Long-term Visitors]
+display_categories: [Doctoral candidates, Postodoctoral researchers, Research assistants, Long-term visitors]
 horizontal: false
 ---
 
-<!-- pages/My Team.md -->
+<!-- pages/team.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
