@@ -62,7 +62,7 @@ nav_order: 3
   </div>
 
   <!-- Postdocs -->
-  <h4 class="mt-5 mb-3">Postdoctoral Researchers</h4>
+  <h4 class="mt-5">Postdoctoral Researchers</h4>
   <div class="row row-cols-1 row-cols-md-4 g-4">
 
     <!-- START: Emilio Benenati -->
@@ -102,7 +102,7 @@ nav_order: 3
   </div>
 
   <!-- Research Assistants -->
-  <h4 class="mt-5 mb-3">Research Assistants</h4>
+  <h4 class="mt-5 ">Research Assistants</h4>
   <div class="row row-cols-1 row-cols-md-4 g-4">
     <!-- START: Jinyu Han -->
     <div class="col">
