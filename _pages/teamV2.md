@@ -15,7 +15,7 @@ nav_order: 3
     <!-- START: Daniel Tihanyi -->
     <div class="col">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <img src="/assets/img/daniel.png" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://www.kth.se/profile/tihanyi?l=en" target="_blank">Daniel Tihanyi</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with Dimos Dimarogonas)</p>
@@ -79,7 +79,7 @@ nav_order: 3
     <!-- START: Andrea Martin -->
     <div class="col">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Andrea Martin" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <img src="/assets/img/andrea-martin.jpg" class="card-img-top" alt="Andrea Martin" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://scholar.google.com/citations?user=Ha56r_oAAAAJ&hl=it" target="_blank">Andrea Martin</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with Mikael Johansson)</p>
