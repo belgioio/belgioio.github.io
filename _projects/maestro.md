@@ -5,7 +5,7 @@ description: Multi-Agent Energy Systems in Transmission Grid Real-time Operation
 img: assets/img/maestro.jpg
 importance: 1
 category: Collaborations
-redirect_to: https://maestro.control.ee.ethz.ch/maestro
+redirect: https://maestro.control.ee.ethz.ch/maestro
 ---
 
 
