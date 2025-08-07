@@ -23,7 +23,6 @@ group :jekyll_plugins do
     gem 'jemoji'
 
     gem 'classifier-reborn'  # used for content categorization during the build
-    gem 'jekyll-redirect-from'
 
 end
 
