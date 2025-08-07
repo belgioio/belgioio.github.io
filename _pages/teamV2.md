@@ -91,7 +91,7 @@ nav_order: 3
     <!-- START: Yue Han -->
     <div class="col">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Yue Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <img src="/assets/img/yue.jpg" class="card-img-top" alt="Yue Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/yue-han-722213307/?locale=en_US" target="_blank">Yue Han</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with Abbas Dashtimanesh & Jelena Zdravkovic)</p>
