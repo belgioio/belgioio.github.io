@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I've finally launched my website (this website)! ✨ Still under construction 🛠️
+I've finally launched my website! This website ✨
