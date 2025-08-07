@@ -398,16 +398,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-i-ve-finally-launched-my-website-this-website-still-under-construction-️",
+          title: 'I’ve finally launched my website (this website)! ✨ Still under construction 🛠️',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-ve-launched-my-personal-website-still-under-construction-️",
-          title: 'I’ve launched my personal website! ✨ Still under construction 🛠️',
+          section: "News",},{id: "news-new-preprint-online-link",
+          title: 'New preprint online! (link)',
           description: "",
           section: "News",},{id: "projects-maestro",
           title: 'MAESTRO',
