@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-ve-finally-launched-my-website-this-website-still-under-construction-️",
-          title: 'I’ve finally launched my website (this website)! ✨ Still under construction 🛠️',
+            },},{id: "news-i-ve-finally-launched-my-website-this-website",
+          title: 'I’ve finally launched my website! This website ✨',
           description: "",
           section: "News",},{id: "news-new-preprint-online-link",
           title: 'New preprint online! (link)',
