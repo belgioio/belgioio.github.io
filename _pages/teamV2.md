@@ -30,7 +30,7 @@ nav_order: 3
         <img src="/assets/img/sophie.jpg" class="card-img-top" alt="Sophie Hall" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://shall-research.moneta.studio/" target="_blank">Sophie Hall</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Florian Dörfler and Dominic Liao-McPherson)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(with Florian Dörfler and Dominic Liao-McPherson)</p>
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@ nav_order: 3
         <img src="/assets/img/yue.jpg" class="card-img-top" alt="Yue Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/yue-han-722213307/?locale=en_US" target="_blank">Yue Han</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Jelena Zdravkovic & Abbas Dashtimanesh)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(with Jelena Zdravkovic & Abbas Dashtimanesh)</p>
         </div>
       </div>
     </div>
