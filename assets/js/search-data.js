@@ -398,7 +398,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-with-60-attendees-our-workshop-systems-theory-of-optimization-learning-and-control-algorithms-was-the-largest-at-ecc-25-stay-tuned-for-recordings",
+            },},{id: "news-with-60-attendees-our-workshop-systems-theory-of-optimization-learning-and-control-algorithms-was-the-largest-at-ecc-2025-in-thessaloniki-greece-we-ll-make-the-recordings-available-soon-stay-tuned",
           title: 'With 60 attendees, our workshop Systems Theory of Optimization, Learning, and Control Algorithms...',
           description: "",
           section: "News",},{id: "news-i-ve-finally-launched-my-website-this-website",
