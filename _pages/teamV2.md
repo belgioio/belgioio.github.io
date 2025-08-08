@@ -16,9 +16,9 @@ nav_order: 3
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/daniel.png" class="card-img-top" alt="Daniel Tihanyi" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body">
+        <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/tihanyidani/" target="_blank">Daniel Tihanyi</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(with Dimos Dimarogonas)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Dimos Dimarogonas)</p>
         </div>
       </div>
     </div>
@@ -28,9 +28,9 @@ nav_order: 3
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/sophie.jpg" class="card-img-top" alt="Sophie Hall" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body">
+        <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://shall-research.moneta.studio/" target="_blank">Sophie Hall</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(with Florian Dörfler and Dominic Liao-McPherson)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Florian Dörfler and Dominic Liao-McPherson)</p>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@ nav_order: 3
         <img src="/assets/img/tommaso.jpeg" class="card-img-top" alt="Tommaso Zaccherini" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://www.kth.se/profile/tommasoz" target="_blank">Tommaso Zaccherini</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(with Dimos Dimarogonas and Siyuan Liu)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Siyuan Liu and Dimos Dimarogonas)</p>
         </div>
       </div>
     </div>
@@ -52,9 +52,9 @@ nav_order: 3
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/jonas.jpg" class="card-img-top" alt="Jonas Matt" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body">
+        <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://jgmatt.github.io/" target="_blank">Jonas Matt</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(with Saverio Bolognani and Florian Dörfler)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Saverio Bolognani and Florian Dörfler)</p>
         </div>
       </div>
     </div>
@@ -64,9 +64,9 @@ nav_order: 3
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Open position" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body">
+        <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="" target="_blank">Open position</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;"> (Official call on 4/9, 2025) </p>
+          <p class="text-muted" style="font-size: 0.9em;"> (official call on 4/9, 2025) </p>
         </div>
       </div>
     </div>
@@ -93,9 +93,9 @@ nav_order: 3
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/andrea-martin.jpeg" class="card-img-top" alt="Andrea Martin" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body">
+        <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://andrea-martin.github.io/" target="_blank">Andrea Martin</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(with Mikael Johansson)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Mikael Johansson)</p>
         </div>
       </div>
     </div>
@@ -105,9 +105,9 @@ nav_order: 3
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/yue.jpg" class="card-img-top" alt="Yue Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body">
+        <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/yue-han-722213307/?locale=en_US" target="_blank">Yue Han</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(with Jelena Zdravkovic & Abbas Dashtimanesh)</p>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with Jelena Zdravkovic & Abbas Dashtimanesh)</p>
         </div>
       </div>
     </div>
