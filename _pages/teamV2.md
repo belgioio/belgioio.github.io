@@ -51,7 +51,7 @@ nav_order: 3
     <!-- START: Jonas Matt -->
     <div class="col">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Jonas Matt" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <img src="/assets/img/jonas.jpg" class="card-img-top" alt="Jonas Matt" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://jgmatt.github.io/" target="_blank">Jonas Matt</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(with Saverio Bolognani and Florian Dörfler)</p>
