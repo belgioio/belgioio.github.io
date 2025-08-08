@@ -406,7 +406,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-maestro",
           title: 'MAESTRO',
-          description: "Multi-Agent Energy Systems in Transmission Grid Real-time Operation",
+          description: "Multi-Agent Energy Systems in Transmission Grid Real-time Operation | ETH, UBC, KTH",
           section: "Projects",handler: () => {
               window.location.href = "/projects/maestro/";
             },},{
