@@ -29,7 +29,7 @@ nav_order: 3
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/sophie.jpg" class="card-img-top" alt="Sophie Hall" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body">
-          <h5 class="card-title mb-1"><a href="https://control.ee.ethz.ch/people/profile.sophie-hall.html" target="_blank">Sophie Hall</a></h5>
+          <h5 class="card-title mb-1"><a href="https://shall-research.moneta.studio/" target="_blank">Sophie Hall</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(co-advised with Florian Dörfler and Dominic Liao-McPherson)</p>
         </div>
       </div>
