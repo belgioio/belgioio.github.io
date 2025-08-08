@@ -78,7 +78,7 @@ nav_order: 3
   <h4 class="mt-3">Postdoctoral Researchers</h4>
   <div class="row row-cols-1 row-cols-md-4 g-4">
 
-    <!-- START: Emilio Benenati -->
+    <!-- START: Emilio Benenati --> 
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/emilio2.jpg" class="card-img-top" alt="Emilio Benenati" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
