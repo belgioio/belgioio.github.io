@@ -81,7 +81,7 @@ nav_order: 3
     <!-- START: Emilio Benenati -->
     <div class="col">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/emilio.jpg" class="card-img-top" alt="Emilio Benenati" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <img src="/assets/img/emilio2.jpg" class="card-img-top" alt="Emilio Benenati" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body">
           <h5 class="card-title mb-1"><a href="https://scholar.google.com/citations?user=X9iu8QQAAAAJ&hl=en" target="_blank">Emilio Benenati</a></h5>
         </div>
