@@ -40,7 +40,7 @@ nav_order: 3
     <div class="col">
       <div class="card h-100 text-center border-0">
         <img src="/assets/img/tommaso.jpeg" class="card-img-top" alt="Tommaso Zaccherini" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body">
+        <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://www.kth.se/profile/tommasoz" target="_blank">Tommaso Zaccherini</a></h5>
           <p class="text-muted" style="font-size: 0.9em;">(with Dimos Dimarogonas and Siyuan Liu)</p>
         </div>
