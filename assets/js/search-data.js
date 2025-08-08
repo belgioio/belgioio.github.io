@@ -401,7 +401,7 @@ ninja.data = [{
             },},{id: "news-i-ve-finally-launched-my-website-this-website",
           title: 'I’ve finally launched my website! This website ✨',
           description: "",
-          section: "News",},{id: "news-new-preprint-online-we-study-voltage-support-procurement-in-transmission-grids-via-the-lenses-of-game-theory-check-out-the-draft-here",
+          section: "News",},{id: "news-new-preprint-online-we-study-voltage-support-procurement-in-transmission-grids-via-the-lenses-of-game-theory-check-out-the-paper-here",
           title: 'New preprint online! We study voltage support procurement in transmission grids via the...',
           description: "",
           section: "News",},{id: "projects-maestro",
