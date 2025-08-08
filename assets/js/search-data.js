@@ -398,7 +398,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-ve-finally-launched-my-website-this-website",
+            },},{id: "news-with-60-attendees-our-workshop-systems-theory-of-optimization-learning-and-control-algorithms-was-the-largest-at-ecc-25-stay-tuned-for-recordings",
+          title: 'With 60 attendees, our workshop Systems Theory of Optimization, Learning, and Control Algorithms...',
+          description: "",
+          section: "News",},{id: "news-i-ve-finally-launched-my-website-this-website",
           title: 'I’ve finally launched my website! This website ✨',
           description: "",
           section: "News",},{id: "news-new-cdc-preprint-online-we-study-voltage-support-in-transmission-grids-using-game-theory",
