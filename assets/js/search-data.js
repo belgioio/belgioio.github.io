@@ -413,7 +413,7 @@ ninja.data = [{
           section: "News",},{id: "news-new-phd-opening-in-my-team-check-out-the-call-here",
           title: '👩‍🎓 New PhD opening in my team! Check out the call here.',
           description: "",
-          section: "News",},{id: "news-panos-was-awarded-the-ieee-css-swiss-chapter-young-author-best-journal-paper-award-2025-for-our-paper-big-hype",
+          section: "News",},{id: "news-panos-was-awarded-the-ieee-css-swiss-chapter-young-author-best-journal-paper-award-2025-for-our-paper-big-hype-best-intervention-in-games-via-distributed-hypergradient-descent",
           title: '🏆Panos was awarded the IEEE CSS Swiss Chapter Young Author Best Journal Paper...',
           description: "",
           section: "News",},{id: "projects-maestro",
