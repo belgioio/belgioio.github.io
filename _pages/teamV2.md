@@ -66,7 +66,7 @@ nav_order: 3
         <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Open position" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://www.kth.se/lediga-jobb/851298?l=en" target="_blank">Open position</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;"> (official call on 4/9, 2025) </p>
+          <p class="text-muted" style="font-size: 0.9em;"> ([official call](https://www.kth.se/lediga-jobb/851298?l=en)) </p>
         </div>
       </div>
     </div>
