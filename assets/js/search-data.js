@@ -422,7 +422,7 @@ ninja.data = [{
           section: "News",},{id: "news-postdoc-opportunity-digital-futures-sponsors-up-to-ten-postdoc-fellowshiup-in-technologies-for-digital-transformation-more-information-here",
           title: '🔑 Postdoc opportunity! Digital Futures sponsors up to ten postdoc fellowshiup in technologies...',
           description: "",
-          section: "News",},{id: "news-awarded-a-starting-grant-4-8m-sek-from-the-swedish-research-council-vr-for-the-project-autonomous-peer-to-peer-energy-trading-scalability-robustness-and-fairness-this-grant-will-finance-a-new-phd-position-in-my-team-official-call-will-be-out-in-december",
+          section: "News",},{id: "news-awarded-a-starting-grant-4-8m-sek-from-the-swedish-research-council-vr-for-the-project-autonomous-peer-to-peer-energy-trading-scalability-robustness-and-fairness-this-grant-will-support-a-new-phd-position-official-call-in-december",
           title: '🎓🔬💰 Awarded a Starting Grant (4.8M SEK) from the Swedish Research Council (VR)...',
           description: "",
           section: "News",},{id: "projects-maestro",
