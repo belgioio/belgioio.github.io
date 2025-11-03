@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎓🔬💰 Awarded a Starting Grant (4.8M SEK) from the Swedish Research Council (VR) for the project “Autonomous Peer-to-Peer Energy Trading: Scalability, Robustness, and Fairness" This grant will finance a new PhD position in my team - official call will be out in december! 
+🎓🔬💰 Awarded a Starting Grant (4.8M SEK) from the Swedish Research Council (VR) for the project “Autonomous Peer-to-Peer Energy Trading: Scalability, Robustness, and Fairness" This grant will support a new PhD position - official call in December! 
