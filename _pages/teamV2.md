@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<div class="container">
+<div class="container"> 
   <!-- PhD Students -->
   <h4 class="mt-5 ">Doctoral candidates</h4>
   <div class="row row-cols-1 row-cols-md-4 g-4">
