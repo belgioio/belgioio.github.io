@@ -22,7 +22,7 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <!-- END: Daniel Tihanyi -->
+    <!-- END: Daniel Tihanyi  -->
 
     <!-- START: Sophie Hall -->
     <div class="col">
