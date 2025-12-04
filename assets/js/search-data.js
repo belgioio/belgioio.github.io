@@ -401,7 +401,7 @@ ninja.data = [{
           title: '🔑 Postdoc opportunity! Digital Futures sponsors up to ten postdoc fellowshiup in technologies...',
           description: "",
           section: "News",},{id: "news-awarded-a-starting-grant-4-8m-sek-from-the-swedish-research-council-vr-for-the-project-autonomous-peer-to-peer-energy-trading-scalability-robustness-and-fairness",
-          title: '🎓🔬💰 Awarded a Starting Grant (4.8M SEK) from the Swedish Research Council (VR)...',
+          title: '💰 Awarded a Starting Grant (4.8M SEK) from the Swedish Research Council (VR)...',
           description: "",
           section: "News",},{id: "news-new-phd-opening-in-autonomous-decentralized-energy-market-check-out-the-official-call-here",
           title: '🎓 New PhD opening in “Autonomous Decentralized Energy Market” 🤖💱⚡ Check out the...',
