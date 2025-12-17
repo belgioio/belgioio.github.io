@@ -66,7 +66,7 @@ nav_order: 3
         <img src="/assets/img/Lisa3.jpg" class="card-img-top" alt="Lisa Innocenti Uccini" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body px-0">
           <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/lisa-innocenti-uccini-b44b24225/" target="_blank">Lisa Innocenti Uccini</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;"> </p>
+          <p class="text-muted" style="font-size: 0.9em;"> (co-advised with Mikael Johansson) </p>
         </div>
       </div>
     </div>
