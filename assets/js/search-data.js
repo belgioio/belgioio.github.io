@@ -391,7 +391,7 @@ ninja.data = [{
           section: "News",},{id: "news-new-phd-opening-in-my-team-check-out-the-call-here",
           title: '👩‍🎓 New PhD opening in my team! Check out the call here.',
           description: "",
-          section: "News",},{id: "news-panos-was-awarded-the-ieee-css-swiss-chapter-young-author-award-2025-for-our-paper-big-hype",
+          section: "News",},{id: "news-panos-was-awarded-the-ieee-css-swiss-chapter-young-author-award-2025-for-our-big-hype",
           title: '🏆Panos was awarded the IEEE CSS Swiss Chapter Young Author Award 2025 for...',
           description: "",
           section: "News",},{id: "news-jonas-won-the-best-poster-award-at-the-swiss-clock-summit-2025-by-land-slide-vote-25-of-the-attendees-this-is-the-first-award-on-the-shelf-of-the-maestro-project",
