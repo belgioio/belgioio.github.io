@@ -35,7 +35,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/Game%20on!/";
+            window.location.href = "/game-on/";
           },
         },{id: "post-a-post-with-plotly-js",
         
