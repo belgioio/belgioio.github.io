@@ -434,7 +434,7 @@ ninja.data = [{
               window.location.href = "/projects/NLsquared/";
             },},{id: "projects-maestro",
           title: 'MAESTRO',
-          description: "Multi-Agent Energy Systems in Transmission Grid Real-time Operation | Swiss Federal Office of Energy (SFOE)",
+          description: "Multi-Agent Systems in Transmission Grid Real-time Operation | Swiss Federal Office of Energy",
           section: "Projects",handler: () => {
               window.location.href = "/projects/maestro/";
             },},{id: "projects-twin-ship",
