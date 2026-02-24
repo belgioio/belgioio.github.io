@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Digital Twin-based Risk-informed Decision Support for Green Shipping
-description: Digital Futures
+title: TWIN-SHIP 
+description: Digital Twin-based Risk-informed Decision Support for Green Shipping | Digital Futures
 img: assets/img/maestro.jpg
 importance: 1
 category: Collaborations
