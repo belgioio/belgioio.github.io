@@ -422,13 +422,13 @@ ninja.data = [{
           section: "News",},{id: "news-awarded-the-research-network-grant-from-nordforsk-200k-sek-to-create-the-first-nordic-network-of-living-labs-along-with-partners-from-dtu-uio-and-nmbu",
           title: '💰 Awarded the research network grant from NordForsk (200K SEK) to create the...',
           description: "",
-          section: "News",},{id: "projects-larning-2-play",
-          title: 'Larning 2 Play',
+          section: "News",},{id: "projects-learning-2-play",
+          title: 'Learning 2 play',
           description: "Learning to optimize for real-time control and coordination in multi-agent systems  | Digital Futures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/L2O/";
-            },},{id: "projects-nl2",
-          title: 'NL2',
+            },},{id: "projects-nnll",
+          title: 'NNLL',
           description: "The Nordic Network of Live-in Labs  | NordForsk",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NLsquared/";
