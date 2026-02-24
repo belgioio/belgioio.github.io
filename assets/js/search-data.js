@@ -422,7 +422,12 @@ ninja.data = [{
           section: "News",},{id: "news-awarded-the-research-network-grant-from-nordforsk-200k-sek-to-create-the-first-nordic-network-of-living-labs-along-with-partners-from-dtu-uio-and-nmbu",
           title: '💰 Awarded the research network grant from NordForsk (200K SEK) to create the...',
           description: "",
-          section: "News",},{id: "projects-maestro",
+          section: "News",},{id: "projects-larning-2-play",
+          title: 'Larning 2 Play',
+          description: "Learning to optimize for real-time control and coordination in multi-agent systems  | Digital Futures",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/L2O/";
+            },},{id: "projects-maestro",
           title: 'MAESTRO',
           description: "Multi-Agent Energy Systems in Transmission Grid Real-time Operation | Swiss Federal Office of Energy (SFOE)",
           section: "Projects",handler: () => {
