@@ -427,6 +427,11 @@ ninja.data = [{
           description: "Learning to optimize for real-time control and coordination in multi-agent systems  | Digital Futures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/L2O/";
+            },},{id: "projects-nl2",
+          title: 'NL2',
+          description: "The Nordic Network of Live-in Labs  | NordForsk",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/NLsquared/";
             },},{id: "projects-maestro",
           title: 'MAESTRO',
           description: "Multi-Agent Energy Systems in Transmission Grid Real-time Operation | Swiss Federal Office of Energy (SFOE)",
