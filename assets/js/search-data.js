@@ -427,9 +427,9 @@ ninja.data = [{
           description: "Multi-Agent Energy Systems in Transmission Grid Real-time Operation | Swiss Federal Office of Energy (SFOE)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/maestro/";
-            },},{id: "projects-digital-twin-based-risk-informed-decision-support-for-green-shipping",
-          title: 'Digital Twin-based Risk-informed Decision Support for Green Shipping',
-          description: "Digital Futures",
+            },},{id: "projects-twin-ship",
+          title: 'TWIN-SHIP',
+          description: "Digital Twin-based Risk-informed Decision Support for Green Shipping | Digital Futures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/twin-ship/";
             },},{
