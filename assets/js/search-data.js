@@ -427,8 +427,8 @@ ninja.data = [{
           description: "Learning to optimize for real-time control and coordination in multi-agent systems  | Digital Futures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/L2O/";
-            },},{id: "projects-nnll",
-          title: 'NNLL',
+            },},{id: "projects-nordic-noll",
+          title: 'Nordic NoLL',
           description: "The Nordic Network of Live-in Labs  | NordForsk",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NLsquared/";
