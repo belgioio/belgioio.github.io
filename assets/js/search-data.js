@@ -438,7 +438,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/maestro/";
             },},{id: "projects-twin-ship",
-          title: 'TWIN-SHIP',
+          title: 'Twin-Ship',
           description: "Digital Twin-based Risk-informed Decision Support for Green Shipping | Digital Futures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/twin-ship/";
