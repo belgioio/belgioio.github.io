@@ -435,9 +435,9 @@ ninja.data = [{
           description: "The Nordic Network of Live-in Labs  | NordForsk",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NLsquared/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-håg",
+          title: 'HÅG',
+          description: "Human-in-the-loop Autonomy via hybrid Games, From theory to deployment in extreme environments  | Digital Futures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hag/";
             },},{id: "projects-maestro",
