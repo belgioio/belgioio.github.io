@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HÅG
-description: Human-in-the-loop Autonomy via hybrid Games, From theory to deployment in extreme environments  | Digital Futures
+description: Human-in-the-loop Autonomy via hybrid Games | Digital Futures
 img: assets/img/HAG3.png
 importance: 1
 category: Collaborations
