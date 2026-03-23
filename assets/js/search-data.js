@@ -420,7 +420,7 @@ ninja.data = [{
           title: '📄 New preprint online! Learning to accelerate KM fixed-point iterations with guarantees.',
           description: "",
           section: "News",},{id: "news-awarded-the-research-network-grant-from-nordforsk-200k-sek-to-create-the-first-nordic-network-of-living-labs-along-with-partners-from-dtu-uio-and-nmbu",
-          title: '💰 Awarded the research network grant from NordForsk (200K SEK) to create the...',
+          title: '💰 Awarded the Research Network Grant from NordForsk (200K SEK) to create the...',
           description: "",
           section: "News",},{id: "news-awarded-a-digital-futures-flagship-grant-7m-sek-together-with-dimos-and-ivan-for-the-collaborative-project-håg-human-in-the-loop-autonomy-via-hybrid-games",
           title: '💰 Awarded a Digital Futures Flagship Grant (7M SEK) together with Dimos and...',
