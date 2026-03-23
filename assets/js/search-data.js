@@ -432,6 +432,11 @@ ninja.data = [{
           description: "The Nordic Network of Live-in Labs  | NordForsk",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NLsquared/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hag/";
             },},{id: "projects-maestro",
           title: 'MAESTRO',
           description: "Multi-Agent Systems in Transmission Grid Real-time Operation | Swiss Federal Office of Energy",
