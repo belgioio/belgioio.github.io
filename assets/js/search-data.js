@@ -437,7 +437,7 @@ ninja.data = [{
               window.location.href = "/projects/NLsquared/";
             },},{id: "projects-håg",
           title: 'HÅG',
-          description: "Human-in-the-loop Autonomy via hybrid Games, From theory to deployment in extreme environments  | Digital Futures",
+          description: "Human-in-the-loop Autonomy via hybrid Games | Digital Futures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hag/";
             },},{id: "projects-maestro",
