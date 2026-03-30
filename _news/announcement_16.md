@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🏆 Awarded the Göran Gustafsson Prize 2026 for Engineering Physics
+🏆 Awarded the [Göran Gustafsson Prize 2026](https://www.kth.se/en/om/nyheter/lokala-nyheter/belgioioso-far-pris-for-forskning-om-smartare-infrastruktursystem-1.1466545) for Engineering Physics at KTH (3.75M SEK).
