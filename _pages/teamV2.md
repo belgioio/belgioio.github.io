@@ -87,10 +87,10 @@ nav_order: 3
        <!-- START: New student -->
     <div class="col">
       <div class="card h-100 text-center border-0">
-        <img src="/assets/img/place_holder.jpg" class="card-img-top" alt="Open position" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <img src="/assets/img/Manqi.JPG" class="card-img-top" alt="Manqi (Maggie) Xu" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
         <div class="card-body px-0">
-          <h5 class="card-title mb-1"><a href="https://www.kth.se/lediga-jobb/878220?l=en" target="_blank">Open position</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;"> Deadline on Jan 31, 2026 4</p>
+          <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/manqi-maggie-xu-491956281/" target="_blank">Manqi (Maggie) Xu</a></h5>
+          <p class="text-muted" style="font-size: 0.9em;"> (co-advised with Henrik Sandberg) 4</p>
         </div>
       </div>
     </div>
