@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 Invited talk "Toward online feedback optimization of complex multi-agent systems" at the [DCSC seminar series](https://www.youtube.com/watch?v=2wLXwxfLJ2A&t=2413s) in TU Delft, The Netherlands 🌷🚲
+🎤 Invited talk "Online feedback optimization of complex multi-agent systems" at the [DCSC seminar series](https://www.youtube.com/watch?v=2wLXwxfLJ2A&t=2413s) in TU Delft, The Netherlands 🌷🚲
