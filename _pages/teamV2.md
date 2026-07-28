@@ -138,6 +138,19 @@ nav_order: 3
     <!-- END: Yue Han -->
   </div>
 
+      <!-- START: Liquan Lin -->
+    <div class="col">
+      <div class="card h-100 text-center border-0">
+        <img src="/assets/img/lqlin.jpg" class="card-img-top" alt="Yue Han" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <div class="card-body px-0">
+          <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/liquan-lin-427245259/" target="_blank">Liquan Lin</a></h5>
+          <p class="text-muted" style="font-size: 0.9em;">(co-advised with with Qianwen Xu)</p>
+        </div>
+      </div>
+    </div>
+    <!-- END: Yue Han -->
+  </div>
+
   <!-- Research Assistants -->
   <h4 class="mt-3 ">Research Assistants</h4>
   <div class="row row-cols-1 row-cols-md-4 g-4">
