@@ -136,7 +136,6 @@ nav_order: 3
       </div>
     </div>
     <!-- END: Yue Han -->
-  </div>
 
       <!-- START: Liquan Lin -->
     <div class="col">
