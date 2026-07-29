@@ -163,6 +163,18 @@ nav_order: 3
       </div>
     </div>
     <!-- END: Jinyu Han --> 
+
+    <!-- START: Theresa Johansson -->
+    <div class="col">
+      <div class="card h-100 text-center border-0">
+        <img src="/assets/img/Theresa_trim.jpg" class="card-img-top" alt="Theresa Johansson" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
+        <div class="card-body">
+          <h5 class="card-title mb-1"><a href="https://www.linkedin.com/in/theresa-johansson-b616a83a9/" target="_blank">Theresa Johansson</a></h5>
+        </div>
+      </div>
+    </div>
+    <!-- END: Theresa Johansson --> 
+    
   </div>
 
   <!-- Group photo at the end -->
