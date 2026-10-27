@@ -24,18 +24,6 @@ nav_order: 3
     </div>
     <!-- END: Daniel Tihanyi  -->
 
-    <!-- START: Sophie Hall -->
-    <div class="col">
-      <div class="card h-100 text-center border-0">
-        <img src="/assets/img/sophie.jpg" class="card-img-top" alt="Sophie Hall" style="object-fit: cover; width: 100%; aspect-ratio: 1 / 1;">
-        <div class="card-body px-0">
-          <h5 class="card-title mb-1"><a href="https://shall-research.moneta.studio/" target="_blank">Sophie Hall</a></h5>
-          <p class="text-muted" style="font-size: 0.9em;">(with Florian Dörfler and Dominic Liao-McPherson)</p>
-        </div>
-      </div>
-    </div>
-    <!-- END: Sophie Hall -->
-
     <!-- START: Tommaso Zaccherini -->
     <div class="col">
       <div class="card h-100 text-center border-0">
