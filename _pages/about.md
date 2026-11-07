@@ -2,18 +2,18 @@
 layout: about
 title: About
 permalink: /
-subtitle:   <p> giubel (at) kth (dot) se  
- 
+subtitle: giubel (at) kth (dot) se
+
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Assistant Professor, KTH<p>
-    <p>Decision and Control Systems<p>
-    <p>Room B:608, Q Building</p>
-    <p>Malvinas vag 10, SE-100 44 <p>
-    <p>Stockholm, Sweden </p>
+    <p>Assistant Professor, KTH<br>
+    Decision and Control Systems<br>
+    Room B:608, Q Building<br>
+    Malvinas väg 10, SE-100 44<br>
+    Stockholm, Sweden</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
