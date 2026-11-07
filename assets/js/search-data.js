@@ -209,6 +209,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/giuseppe-belgioioso-495843108", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-8892-1466", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
