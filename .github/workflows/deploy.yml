@@ -1,4 +1,5 @@
 name: Deploy site
+# Runs only when a push changes one of the paths below (an empty commit does not trigger it).
 
 on:
   push:
