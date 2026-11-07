@@ -28,7 +28,7 @@ ninja.data = [{
           description: "I am privileged to work with an outstanding research team! We&#39;re rapidly growing in size, with everyone either formally co-advised or integrated through various collaborations.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teamV2/";
+            window.location.href = "/people/";
           },
         },{id: "nav-game-on",
           title: "Game on!",
@@ -106,7 +106,67 @@ ninja.data = [{
           section: "News",},{id: "news-new-phd-opportunity-learn-more-and-apply-here",
           title: '🌟 New phd opportunity! Learn more and apply here 🐠 🤖',
           description: "",
-          section: "News",},{id: "projects-learn2play",
+          section: "News",},{id: "people-andrea-martin",
+          title: 'Andrea Martin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/andrea-martin/";
+            },},{id: "people-daniel-tihanyi",
+          title: 'Daniel Tihanyi',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/daniel-tihanyi/";
+            },},{id: "people-emilio-benenati",
+          title: 'Emilio Benenati',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/emilio-benenati/";
+            },},{id: "people-jinyu-han",
+          title: 'Jinyu Han',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jinyu-han/";
+            },},{id: "people-joas-kahlert",
+          title: 'Joas Kahlert',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/joas-kahlert/";
+            },},{id: "people-jonas-matt",
+          title: 'Jonas Matt',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jonas-matt/";
+            },},{id: "people-liquan-lin",
+          title: 'Liquan Lin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/liquan-lin/";
+            },},{id: "people-lisa-innocenti-uccini",
+          title: 'Lisa Innocenti Uccini',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/lisa-innocenti-uccini/";
+            },},{id: "people-manqi-xu",
+          title: 'Manqi Xu',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/manqi-xu/";
+            },},{id: "people-theresa-johansson",
+          title: 'Theresa Johansson',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/theresa-johansson/";
+            },},{id: "people-tommaso-zaccherini",
+          title: 'Tommaso Zaccherini',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/tommaso-zaccherini/";
+            },},{id: "people-yue-han",
+          title: 'Yue Han',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/yue-han/";
+            },},{id: "projects-learn2play",
           title: 'Learn2play',
           description: "Learning to optimize for real-time control and coordination in multi-agent systems  | Digital Futures",
           section: "Projects",handler: () => {
