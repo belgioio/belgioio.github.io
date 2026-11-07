@@ -7,7 +7,8 @@
   journal={arXiv preprint arXiv:2609.17113},
   arxiv = {2609.17113},
   year={2026},
-  preview = {priceDR_LQR.png}
+  preview = {priceDR_LQR.png},
+  abstract={Distributionally robust (DR) optimization seeks decisions that perform best under the most adverse law within a given ambiguity set, enabling the design of data-driven controllers with strong out-of-sample guarantees in the face of uncertainty. In this paper, we study the conservatism introduced by safeguarding against distributional ambiguity. Specifically, we consider the data-driven Wasserstein DR linear quadratic control problem, and we analyze the suboptimality of the corresponding solution relative to the oracle controller computed with foreknowledge of the underlying unknown uncertainty distribution. We present a sample complexity bound that characterizes the number of samples required to ensure that the true cost of the DR solution exceeds that of the oracle controller by at most a user-defined tolerance factor. Our analysis reveals that the suboptimality of the DR solution increases at most linearly with the Wasserstein radius for sufficiently small distributional ambiguity, and at most quadratically away from this local regime. Numerical simulations validate our bounds on the price of distributional robustness.}
 }
 
 @article{martin2026finite,
@@ -16,7 +17,8 @@
   journal={arXiv preprint arXiv:2609.16353},
   arxiv = {2609.16353},
   year={2026},
-  preview = {finiteSampleOpSplit.png}
+  preview = {finiteSampleOpSplit.png},
+  abstract={Operator splitting methods are a fundamental class of algorithms for solving structured monotone inclusion problems arising in optimization, control, and game theory. We consider the case, common in stochastic regimes, where the forward evaluation of one of the constituent operators is either unavailable in closed form or computationally expensive to evaluate, and is therefore approximated using a finite number of noisy oracle samples. We establish distribution-free, finite-sample certificates for the quality of the output produced by data-driven Davis-Yin splitting algorithms. Unlike previous works, our analysis directly controls the residual error via martingale inequalities instead of relying on algorithmic stability arguments for a tailored surrogate loss, yielding the first a priori certificates whose statistical excess provably vanishes with the sample size. We further show that, under linear convergence of the Davis-Yin splitting algorithm, the dependence of our bounds on the iteration count improves from linear growth to exponential decay. We validate our theoretical results on a stochastic portfolio optimization problem with uncertain asset returns.}
 }
 
 @article{peng2026distributed,
@@ -25,7 +27,8 @@
   journal={arXiv preprint arXiv:2606.01594},
   arxiv = {2606.01594},
   year={2026},
-  preview = {robustWardrop.png}
+  preview = {robustWardrop.png},
+  abstract={This paper considers a class of aggregative congestion games with uncertain coupling constraints, and devises a distributed algorithm to seek the robust generalized Wardrop equilibrium (RGWE) under worst-case uncertainty. Utilizing robust optimization theory, we reformulate the original aggregative congestion game with uncertainty into a tractable and deterministic augmented problem. Building upon this reformulation, we design a fully distributed algorithm to seek the RGWE by integrating a projected primal-dual scheme and a dynamic tracking technique. The convergence of the proposed algorithm is rigorously guaranteed via singular perturbation theory and LaSalle's invariance principle. Furthermore, we explicitly characterize the relationship between the obtained RGWE and the robust generalized Nash equilibrium, as the latter captures full strategic interactions. Finally, numerical simulations on the charging control of plug-in electric vehicles corroborate our theoretical findings.}
 }
 
 @article{arnstrom2026texttt,
@@ -34,7 +37,8 @@
   journal={arXiv preprint arXiv:2604.02531},
   arxiv = {2604.02531},
   year={2026},
-  preview = {DRDAQP.png}
+  preview = {DRDAQP.png},
+  abstract={We present DR-DAQP, an open-source solver for strongly monotone affine variational inequalities (AVIs) that combines Douglas-Rachford operator splitting with an active-set acceleration strategy. The key idea is to estimate the active set along the iterations to attempt directly computing a point that satisfies the optimality conditions. This step yields the exact AVI solution when the active set is correctly estimated, thus overcoming the asymptotic convergence limitation inherent in first-order methods. Moreover, we exploit warm-starting and pre-factorization of relevant matrices to further accelerate evaluation of the algorithm iterations. We prove convergence and establish conditions under which the algorithm terminates in finite time with the exact solution. Numerical experiments on a randomly generated set of AVIs and on a set of multi-agent optimal control problems show that DR-DAQP outperforms several state-of-the-art solvers. A high-performing C implementation is available at https://github.com/darnstrom/daqp, with easily-accessible interfaces to Julia, MATLAB, and Python.}
 }
 
 @article{zagorowska2026adaptive,
@@ -43,7 +47,8 @@
   journal={arXiv preprint arXiv:2604.12863},
   year={2026},
   arxiv = {2604.12863},
-  preview = {adaOFO.png}
+  preview = {adaOFO.png},
+  abstract={Online Feedback Optimization leverages properties of optimization algorithms to develop controllers for systems with limited model availability, which is often the case in process control. The interplay between the parameters of the chosen optimization algorithm, as well as lack of direct connection to the characteristics of the underlying process make their tuning challenging. We propose a method for adaptive tuning of Online Feedback Optimization controllers based on scaled projected gradient descent by using sensitivity of the desired objective to the parameters of the algorithm. The proposed adaptive tuning method limits the operator-tunable parameters to scalar values that represent how much the control inputs and the objective can change between iterations without requiring either additional information about the controlled system or repeated experiments. Numerical studies on a gas lift and a continuously-stirred tank reactor processes confirm that our adaptive scheme improves closed-loop performance of Online Feedback optimization compared to standard manual tuning methods.}
 }
 
 @article{martin2026learning,
@@ -52,7 +57,8 @@
   journal={arXiv preprint arXiv:2601.07665},
   arxiv = {2601.07665},
   year={2026},
-  preview = {learningKM.png}
+  preview = {learningKM.png},
+  abstract={We introduce a principled learning to optimize (L2O) framework for solving fixed-point problems involving general nonexpansive mappings. Our idea is to deliberately inject summable perturbations into a standard Krasnosel'skii-Mann iteration to improve its average-case performance over a specific distribution of problems while retaining its convergence guarantees. Under a metric sub-regularity assumption, we prove that the proposed parametrization includes only iterations that locally achieve linear convergence-up to a vanishing bias term-and that it encompasses all iterations that do so at a sufficiently fast rate. We then demonstrate how our framework can be used to augment several widely-used operator splitting methods to accelerate the solution of structured monotone inclusion problems, and validate our approach on a best approximation problem using an L2O-augmented Douglas-Rachford splitting algorithm.}
 }
 
 @article{benenati2026,
@@ -63,7 +69,8 @@
   arxiv = {2512.07749},
   preview = {explicitMPC.png},
   code = {https://github.com/bemilio/DyNECT},
-  selected ={true}
+  selected ={true},
+  abstract={We present an efficient algorithm to compute the explicit open-loop solution to both finite and infinite-horizon dynamic games subject to state and input constraints. Our approach relies on a multiparametric affine variational inequality characterization of the open-loop Nash equilibria and extends the classical explicit constrained LQR and MPC frameworks to multi-agent non-cooperative settings. A key practical implication is that linear-quadratic game-theoretic MPC becomes viable even at very high sampling rates for multi-agent systems of moderate size. Extensive numerical experiments demonstrate order-of-magnitude improvements in online computation time and solution accuracy compared with state-of-the-art game-theoretic solvers.}
 }
 
 
@@ -74,7 +81,8 @@
   pages={5912--5917},
   year={2016},
   organization={IEEE},
-  doi={10.1109/CDC.2016.7799179}
+  doi={10.1109/CDC.2016.7799179},
+  abstract={This work addresses the boundary patrolling problem, where a smart camera network undertakes the task of monitoring the perimeter of an environment so as to detect anomalies and track possible intrusions. Here, a distributed solution is sought based on the definition of a suitable functional that accounts both for the equitable partitioning of the available space and for the quality of vision of the patrolled area, and admits a unique optimal solution. The optimization of such functional leads to the design of an algorithm relying on a symmetric gossip communication protocol among the neighboring cameras. The theoretical results prove the correctness of the approach and the numerical simulations on a realistic scenario confirm its validity.}
 }
 
 @article{belgioioso2017semi,
@@ -86,7 +94,8 @@
   pages={400--405},
   year={2017},
   publisher={IEEE},
-  doi={10.1109/LCSYS.2017.2718842}
+  doi={10.1109/LCSYS.2017.2718842},
+  abstract={We study the Nash equilibrium seeking problem for noncooperative agents whose decision making process can be modeled as a generalized aggregative game. Specifically, we consider players with convex local cost functions, convex local constraints, and convex separable coupling constraints, and we extend the literature on generalized aggregative games by handling possibly non-differentiable cost functions. We recast the Nash equilibrium seeking problem as the problem to find a zero of a set-valued monotone operator and show that the variational Nash equilibria correspond to KKT solutions of the original game where the shared constraints have the same Lagrange multipliers for all the players. Finally, we design a semi-decentralized algorithm with global convergence guarantee for generalized Nash equilibrium seeking.}
 }
 
 @article{belgioioso2017convexity,
@@ -98,7 +107,8 @@
   pages={14338--14343},
   year={2017},
   publisher={Elsevier},
-  doi={10.1016/j.ifacol.2017.08.2011}
+  doi={10.1016/j.ifacol.2017.08.2011},
+  abstract={Large-scale multi-agent systems arise in several control applications, such as demand side management in smart power networks, traffic control in intelligent transportation systems, and congestion control in communication networks. All these systems comprise a large population of noncooperative agents whose decision making process can be modeled as a generalized aggregative game. In this paper, we analyze the usual convexity assumption and the monotonicity of the so-called game mapping. Specifically, we show necessary and sufficient conditions on the problem data such that monotonicity holds. The derived conditions show that monotonicity cannot be expected in general.}
 }
 
 @article{trivellin2018study,
@@ -110,7 +120,8 @@
   pages={1130},
   year={2018},
   publisher={MDPI},
-  doi={10.3390/s18041130}
+  doi={10.3390/s18041130},
+  abstract={The importance of oxygen in the winemaking process is widely known, as it affects the chemical aspects and therefore the organoleptic characteristics of the final product. Hence, it is evident the usefulness of a continuous and real-time measurements of the levels of oxygen in the various stages of the winemaking process, both for monitoring and for control. The WOW project (Deployment of WSAN technology for monitoring Oxygen in Wine products) has focused on the design and the development of an innovative device for monitoring the oxygen levels in wine. This system is based on the use of an optical fiber to measure the luminescent lifetime variation of a reference metal/porphyrin complex, which decays in presence of oxygen. The developed technology results in a high sensitivity and low cost sensor head that can be employed for measuring the dissolved oxygen levels at several points inside a wine fermentation or aging tank. This system can be complemented with dynamic modeling techniques to provide predictive behavior of the nutrient evolution in space and time given few sampled measuring points, for both process monitoring and control purposes. The experimental validation of the technology has been first performed in a controlled laboratory setup to attain calibration and study sensitivity with respect to different photo-luminescent compounds and alcoholic or non-alcoholic solutions, and then in an actual case study during a measurement campaign at a renown Italian winery.}
 }
 
 @article{belgioioso2018convergence,
@@ -123,7 +134,8 @@
   pages={453--458},
   year={2018},
   publisher={IEEE},
-  doi={10.1109/LCSYS.2018.2840882}
+  doi={10.1109/LCSYS.2018.2840882},
+  abstract={We adopt an operator-theoretic perspective to study convergence of linear fixed-point iterations and discrete- time linear systems. We mainly focus on the so-called Krasnoselskij-Mann iteration x(k+1) = ( 1 - α(k) ) x(k) + α(k) A x(k), which is relevant for distributed computation in optimization and game theory, when A is not available in a centralized way. We show that convergence to a vector in the kernel of (I-A) is equivalent to strict pseudocontractiveness of the linear operator x -&gt; Ax. We also characterize some relevant operator-theoretic properties of linear operators via eigenvalue location and linear matrix inequalities. We apply the convergence conditions to multi-agent linear systems with vanishing step sizes, in particular, to linear consensus dynamics and equilibrium seeking in monotone linear-quadratic games.}
 }
 
 @inproceedings{belgioioso2018douglas,
@@ -134,7 +146,8 @@
   booktitle={2018 IEEE Conference on Decision and Control (CDC)},
   pages={3541--3546},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={We address the generalized aggregative equilibrium seeking problem for noncooperative agents playing average aggregative games with affine coupling constraints. First, we use operator theory to characterize the generalized aggregative equilibria of the game as the zeros of a monotone set-valued operator. Then, we massage the Douglas-Rachford splitting to solve the monotone inclusion problem and derive a single layer, semi-decentralized algorithm whose global convergence is guaranteed under mild assumptions. The potential of the proposed Douglas-Rachford algorithm is shown on a simplified resource allocation game, where we observe faster convergence with respect to forward-backward algorithms.}
 }
 
 @article{fabiani2020convergence,
@@ -146,7 +159,8 @@
   pages={109058},
   year={2020},
   publisher={Pergamon},
-  doi={10.1016/j.automatica.2020.109058}
+  doi={10.1016/j.automatica.2020.109058},
+  abstract={State convergence is essential in several scientific areas, e.g. multi-agent consensus/disagreement, distributed optimization, monotone game theory, multi-agent learning over time-varying networks. This paper is the first on state convergence in both continuous- and discrete-time linear systems affected by polytopic uncertainty. First, we characterize state convergence in linear time invariant systems via equivalent necessary and sufficient conditions. In the presence of uncertainty, we complement the canonical definition of (weak) convergence with a stronger notion of convergence, which requires the existence of a common kernel among the generator matrices of the difference/differential inclusion (strong convergence). We investigate under which conditions the two definitions are equivalent. Then, we characterize weak and strong convergence by means of Lyapunov and LaSalle arguments, (linear) matrix inequalities and separability of the eigenvalues of the generator matrices. We also show that, unlike asymptotic stability, state convergence lacks of duality.}
 }
 
 @inproceedings{belgioioso2018projected,
@@ -157,7 +171,8 @@
   booktitle={2018 European Control Conference (ECC)},
   pages={2188--2193},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={We show that projected-gradient methods for the distributed computation of generalized Nash equilibria in aggregative games are preconditioned forward-backward splitting methods applied to the KKT operator of the game. Specifically, we adopt the preconditioned forward-backward design, recently conceived by Yi and Pavel in the manuscript "A distributed primal-dual algorithm for computation of generalized Nash equilibria via operator splitting methods" for generalized Nash equilibrium seeking in aggregative games. Consequently, we notice that two projected-gradient methods recently proposed in the literature are preconditioned forward-backward methods. More generally, we provide a unifying operator-theoretic ground to design projected-gradient methods for generalized equilibrium seeking in aggregative games.}
 }
 
 @article{estrella2019shrinking,
@@ -169,7 +184,8 @@
   pages={126--131},
   year={2019},
   publisher={Elsevier},
-  doi={10.1016/j.ifacol.2019.06.022}
+  doi={10.1016/j.ifacol.2019.06.022},
+  abstract={We address the demand-side management (DSM) problem for smart grids where the users have energy generation and storage capabilities, and where the energy price depends on the renewable energy sources and on the aggregate electricity demand. Each user aims at reducing its economic cost by selecting the best energy schedule subject to its local preferences and global restrictions on the aggregate net demand. From a game-theoretic perspective, we model the problem as a generalized Nash equilibrium problem. We propose a shrinking-horizon semi-decentralized DSM algorithm that exploits the most recent forecast on the renewable energy sources to perform real-time adjustments on the energy usage of the users. We investigate the potential of the proposed approach via numerical simulations on realistic scenarios, where we observe improved social welfare compared to day-ahead DSM algorithms.}
 }
 
 @inproceedings{belgioioso2019distributed,
@@ -179,7 +195,8 @@
   booktitle={2019 18th European Control Conference (ECC)},
   pages={1--6},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={We address the generalized Nash equilibrium seeking problem for a population of noncooperative agents playing potential games with linear coupling constraints over a communication network. We consider a class of generalized potential games where the coupling in the cost functions of the agents is linear, i.e., Jᵢ(xᵢ, x₋ᵢ) = fᵢ(xᵢ) + ℓᵢ(x₋ᵢ)ᵀxᵢ, where ℓᵢ is linear. By exploiting this special structure, we design a distributed algorithm with convergence guarantee under mild assumptions, i.e., (non-strict) monotonicity of the pseudo-subdifferential mapping. The potential of the proposed algorithm is shown via numerical simulations on a networked Nash Cournot game, where we observe faster convergence with respect to standard projected pseudo-gradient algorithms.}
 }
 
 @article{belgioioso2021semi,
@@ -193,7 +210,8 @@
   year={2021},
   preview ={semi.png},
   publisher={IEEE},
-  doi={10.1109/TAC.2021.3135360}
+  doi={10.1109/TAC.2021.3135360},
+  abstract={We address the generalized Nash equilibrium seeking problem for a population of agents playing aggregative games with affine coupling constraints. We focus on semi-decentralized communication architectures, where there is a central coordinator able to gather and broadcast signals of aggregative nature to the agents. By exploiting the framework of monotone operator theory and operator splitting, we first critically review the most relevant available algorithms and then design two novel schemes: (i) a single-layer, fixed-step algorithm with convergence guarantee for general (non cocoercive, non-strictly) monotone aggregative games and (ii) a single-layer proximal-type algorithm for a class of monotone aggregative games with linearly coupled cost functions. We also design novel accelerated variants of the algorithms via (alternating) inertial and over-relaxation steps. Finally, we show via numerical simulations that the proposed algorithms outperform those in the literature in terms of convergence speed.}
 }
 
 @article{cenedese2021asynchronous,
@@ -205,7 +223,8 @@
   volume={58},
   pages={143--151},
   year={2021},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={In this paper, we present three distributed algorithms to solve a class of generalized Nash equilibrium (GNE) seeking problems in strongly monotone games. The first one (SD-GENO) is based on synchronous updates of the agents, while the second and the third (AD-GEED and AD-GENO) represent asynchronous solutions that are robust to communication delays. AD-GENO can be seen as a refinement of AD-GEED, since it only requires node auxiliary variables, enhancing the scalability of the algorithm. Our main contribution is to prove converge to a variational GNE of the game via an operator-theoretic approach. Finally, we apply the algorithms to network Cournot games and show how different activation sequences and delays affect convergence. We also compare the proposed algorithms to the only other in the literature (ADAGNES), and observe that AD-GENO outperforms the alternative.}
 }
 
 @article{belgioioso2020equilibrium,
@@ -224,7 +243,8 @@
   booktitle={2021 60th IEEE Conference on Decision and Control (CDC)},
   pages={2702--2708},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={This paper proposes a general framework for constructing feedback controllers that drive complex dynamical systems to "efficient" steady-state (or slowly varying) operating points. Efficiency is encoded using generalized equations which can model a broad spectrum of useful objectives, such as optimality or equilibria (e.g. Nash, Wardrop, etc.) in noncooperative games. The core idea of the proposed approach is to directly implement iterative solution (or equilibrium seeking) algorithms in closed loop with physical systems. Sufficient conditions for closed-loop stability and robustness are derived; these also serve as the first closed-loop stability results for sampled-data feedback-based optimization. Numerical simulations of smart building automation and game-theoretic robotic swarm coordination support the theoretical results.}
 }
 
 @article{belgioioso2020distributed,
@@ -235,7 +255,8 @@
   year={2020},
   preview={nedic.png},
   publisher={IEEE},
-  doi={10.1109/TAC.2020.3005922}
+  doi={10.1109/TAC.2020.3005922},
+  abstract={We design the first fully-distributed algorithm for generalized Nash equilibrium seeking in aggregative games on a time-varying communication network, under partial-decision information, i.e., the agents have no direct access to the aggregate decision. The algorithm is derived by integrating dynamic tracking into a projected pseudo-gradient algorithm. The convergence analysis relies on the framework of monotone operator splitting and the Krasnosel'skii-Mann fixed-point iteration with errors.}
 }
 
 @inproceedings{belgioioso2014machine,
@@ -245,7 +266,8 @@
   pages={4899--4904},
   year={2014},
   organization={IEEE},
-  doi={10.1109/CDC.2014.7040154}
+  doi={10.1109/CDC.2014.7040154},
+  abstract={The interaction based on gestures has become a prominent approach to interact with electronic devices. In this paper a Machine Learning (ML) based approach to gesture recognition (GR) is illustrated; the proposed tool is freestanding from user, device and device orientation. The tool has been tested on a heterogeneous dataset representative of a typical application of gesture recognition. In the present work two novel ML algorithms based on Sparse Bayesian Learning are tested versus other classification approaches already employed in literature (Support Vector Machine, Relevance Vector Machine, k-Nearest Neighbor, Discriminant Analysis). A second element of novelty is represented by a Principal Component Analysis-based approach, called Pre-PCA, that is shown to enhance gesture recognition with heterogeneous working conditions. Feature extraction techniques are also investigated: a Principal Component Analysis based approach is compared to Frame-Based Description methods.}
 }
 
 @article{cenedese2015home,
@@ -257,7 +279,8 @@
   pages={1200--1210},
   year={2015},
   publisher={IEEE},
-  doi={10.1109/TASE.2015.2473659}
+  doi={10.1109/TASE.2015.2473659},
+  abstract={In this paper, a machine learning (ML) approach is presented that exploits accelerometers data to deal with gesture recognition (GR) problems. The proposed methodology aims at providing high accuracy classification for home automation systems, which are generally user independent, device independent, and device orientation independent, an heterogeneous scenario that has not been fully investigated in previous GR literature. The approach illustrated in this paper is composed of three main steps: event identification; feature extraction; and ML-based classification. The elements of the novelty of the proposed approach are 1) a preprocessing phase based on principal component analysis to increase the performance in real-world scenario conditions and 2) the development of parsimonious novel classification techniques based on sparse Bayesian learning. This methodology is tested on two datasets of four gesture classes (horizontal, vertical, circles, and eight-shaped movements) and on a further dataset with eight classes. In order to authentically describe a real-world home automation environment, the gesture movements are collected from more than 30 people who freely perform any gesture. It results in a dictionary of 12 and 20 different movements, respectively, in the case of the four-class and the eight-class databases.}
 }
 
 @article{cenedese2020asynchronous,
@@ -271,7 +294,8 @@
   year={2020},
   preview={async.png},
   publisher={IEEE},
-  doi={10.1109/TAC.2020.3011916}
+  doi={10.1109/TAC.2020.3011916},
+  abstract={In this paper, we study proximal type dynamics in the context of noncooperative multi-agent network games. These dynamics arise in different applications, since they describe distributed decision making in multi-agent networks, e.g., in opinion dynamics, distributed model fitting and network information fusion, where the goal of each agent is to seek an equilibrium using local information only. We analyse several conjugations of this class of games, providing convergence results, or designing equilibrium seeking algorithms when the original dynamics fail to converge. For the games subject only to local constraints we look into both synchronous/asynchronous dynamics and time-varying communication networks. For games subject in addition to coupling constraints, we design an equilibrium seeking algorithm converging to a special class of game equilibria. Finally, we validate the theoretical results via numerical simulations on opinion dynamics and distributed model fitting.}
 }
 
 @article{belgioioso2022operationally,
@@ -284,7 +308,8 @@
   pages={2897--2907},
   year={2022},
   publisher={IEEE},
-  doi={10.1109/TSG.2022.3158442}
+  doi={10.1109/TSG.2022.3158442},
+  abstract={In future distribution grids, prosumers (i.e., energy consumers with storage and/or production capabilities) will trade energy with each other and with the main grid. To ensure an efficient and safe operation of energy trading, in this paper, we formulate a peer-to-peer energy market of prosumers as a generalized aggregative game, in which a network operator is only responsible for the operational constraints of the system. We design a distributed market-clearing mechanism with convergence guarantee to an economically-efficient and operationally-safe configuration (i.e., a variational generalized Nash equilibrium). Numerical studies on the IEEE 37-bus testcase show the scalability of the proposed approach and suggest that active participation in the market is beneficial for both prosumers and the network operator.}
 }
 
 @article{bianchi2022fast,
@@ -296,7 +321,8 @@
   pages={110080},
   year={2022},
   publisher={Elsevier},
-  doi={10.1016/j.automatica.2021.110080}
+  doi={10.1016/j.automatica.2021.110080},
+  abstract={We address the generalized Nash equilibrium seeking problem in a partial-decision information scenario, where each agent can only exchange information with some neighbors, although its cost function possibly depends on the strategies of all agents. The few existing methods build on projected pseudo-gradient dynamics, and require either double-layer iterations or conservative conditions on the step sizes. To overcome both these flaws and improve efficiency, we design the first fully-distributed single-layer algorithms based on proximal best-response. Our schemes are fixed-step and allow for inexact updates, which is crucial for reducing the computational complexity. Under standard assumptions on the game primitives, we establish convergence to a variational equilibrium (with linear rate for games without coupling constraints) by recasting our algorithms as proximal-point methods, opportunely preconditioned to distribute the computation among the agents. Since our analysis hinges on a restricted monotonicity property, we also provide new general results that significantly extend the domain of applicability of proximal-point methods. Besides, the operator-theoretic approach favors the implementation of provably correct acceleration schemes that can further improve the convergence speed. Finally, the potential of our algorithms is demonstrated numerically, revealing much faster convergence with respect to projected pseudo-gradient methods and validating our theoretical findings.}
 }
 
 @inproceedings{cenedese2020time,
@@ -307,7 +333,8 @@
   pages={148--153},
   year={2020},
   organization={IEEE},
-  doi={10.23919/ECC51009.2020.9143683}
+  doi={10.23919/ECC51009.2020.9143683},
+  abstract={In this paper, we study multi-agent network games subject to affine time-varying coupling constraints and a time-varying communication network. We focus on the class of games adopting proximal dynamics and study their convergence to a persistent equilibrium. The assumptions considered to solve the problem are discussed and motivated. We develop an iterative equilibrium seeking algorithm, using only local information, that converges to a special class of game equilibria. Its derivation is motivated by several examples, showing that the original game dynamics fail to converge. Finally, we apply the designed algorithm to solve a constrained consensus problem, validating the theoretical results.}
 }
 
 @article{maddux2023data,
@@ -320,7 +347,8 @@
   number={2},
   pages={9330--9335},
   year={2023},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={A central question in multi-agent strategic games deals with learning the underlying utilities driving the agents' behaviour. Motivated by the increasing availability of large data-sets, we develop an unifying data-driven technique to estimate agents' utility functions from their observed behaviour, irrespective of whether the observations correspond to equilibrium configurations or to temporal sequences of action profiles. Under standard assumptions on the parametrization of the utilities, the proposed inference method is computationally efficient and finds all the parameters that rationalize the observed behaviour best. We numerically validate our theoretical findings on the market share estimation problem under advertising competition, using historical data from the Coca-Cola Company and Pepsi Inc. duopoly.}
 }
 
 @article{padilla2022complete,
@@ -342,7 +370,8 @@
   pages={3795--3800},
   year={2022},
   organization={IEEE},
-  doi={10.1109/CDC51059.2022.9992497}
+  doi={10.1109/CDC51059.2022.9992497},
+  abstract={Distributed energy storage and flexible loads are essential tools for ensuring stable and robust operation of the power grid in spite of the challenges arising from the integration of volatile renewable energy generation and increasing peak loads due to widespread electrification. This paper proposes a demand-side management policy to coordinate self-interested energy prosumers based on receding horizon games, i.e., a closed-loop receding-horizon implementation of game-theoretic day-ahead planning. Practical stability and recursive constraint satisfaction of the proposed feedback control policy is proven under symmetric pricing assumptions using tools from game theory and economic model predictive control. Our numerical studies show that the proposed approach is superior to standard open-loop day-head implementations in terms of peak-shaving, disturbance rejection, and control performance.}
 }
 
 @article{belgioioso2022distributed,
@@ -357,7 +386,8 @@
   pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833242},
   preview = {Front_Cover_CSM.png},
   selected ={true},
-  doi={10.1109/MCS.2022.3171480}
+  doi={10.1109/MCS.2022.3171480},
+  abstract={Generalized games model interactions between a set of selfish decision makers, called players or agents, where both the objective function and the feasible decision set of each player may depend on strategies of the competitors. Such games arise, for example, when agents compete for a share of some common but limited resources. For instance, consider a set of vehicles sharing the road, set of radio channels competing for bandwidth, or set of companies servicing an economic market. They can each be modeled as players/agents in a game, competing for a portion of available resources, that is, road capacity, total bandwidth, or market share. As resources are limited, player choices are bound together by a coupling-capacity constraint. Essentially, in a generalized game, or one with coupling constraints, the set of available choices an agent has depends on the choices of other agents. Thus, a player cannot simply optimize their own objective function without considering the decisions of the others, even though this objective might not depend on him or her. The relevant equilibrium (namely, the solution concept) for noncooperative decision making with coupling constraints is called a generalized Nash equilibrium (GNE).}
 }
 
 
@@ -372,7 +402,8 @@
   code = {https://www.research-collection.ethz.ch/handle/20.500.11850/577182},
   preview={FES.png},
   selected = {false},
-  doi={10.1109/TAC.2024.3424345}
+  doi={10.1109/TAC.2024.3424345},
+  abstract={This paper proposes a unifying design framework for dynamic feedback controllers that track solution trajectories of time-varying generalized equations, such as local minimizers of nonlinear programs or competitive equilibria (e.g., Nash) of non-cooperative games. Inspired by the feedback optimization paradigm, the core idea of the proposed approach is to re-purpose classic iterative algorithms for solving generalized equations (e.g., Josephy--Newton, forward-backward splitting) as dynamic feedback controllers by integrating online measurements of the continuous-time nonlinear plant. Sufficient conditions for closed-loop stability and robustness of the algorithm-plant cyber-physical interconnection are derived in a sampled-data setting by combining and tailoring results from (monotone) operator, fixed-point, and nonlinear systems theory. Numerical simulations on smart building automation and competitive supply-chain management are presented to support the theoretical findings.}
 }
 
 @article{belgioioso2023stability,
@@ -385,7 +416,8 @@
   number={2},
   pages={5115--5120},
   year={2023},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={In distributed model predictive control (MPC), the control input at each sampling time is computed by solving a large-scale optimal control problem (OCP) over a finite horizon using distributed algorithms. Typically, such algorithms require several (virtually, infinite) communication rounds between the subsystems to converge, which is a major drawback both computationally and from an energetic perspective (for wireless systems). Motivated by these challenges, we propose a suboptimal distributed MPC scheme in which the total communication burden is distributed also in time, by maintaining a running solution estimate for the large-scale OCP and updating it at each sampling time. We demonstrate that, under some regularity conditions, the resulting suboptimal MPC control law recovers the qualitative robust stability properties of optimal MPC, if the communication budget at each sampling time is large enough.}
 }
 
 @article{behrunani2023designing,
@@ -398,7 +430,8 @@
   pages={3751--3756},
   year={2023},
   publisher={Elsevier},
-  doi={10.1016/j.ifacol.2023.10.1544}
+  doi={10.1016/j.ifacol.2023.10.1544},
+  abstract={Several autonomous energy management and peer-to-peer trading mechanisms for future energy markets have been recently proposed based on optimization and game theory. In this paper, we study the impact of trading prices on the outcome of these market designs for energy-hub networks. We prove that, for a generic choice of trading prices, autonomous peer-to-peer trading is always network-wide beneficial but not necessarily individually beneficial for each hub. Therefore, we leverage hierarchical game theory to formalize the problem of designing locally-beneficial and network-wide fair peer-to-peer trading prices. Then, we propose a scalable and privacy-preserving price-mediation algorithm that provably converges to a profile of such prices. Numerical simulations on a 3-hub network show that the proposed algorithm can indeed incentivize active participation of energy hubs in autonomous peer-to-peer trading schemes.}
 }
 
 @article{grontas2024big,
@@ -413,7 +446,8 @@
   url={https://ieeexplore.ieee.org/document/10551472},
   preview={BIH_Hype.jpg},
   selected={true},
-  doi          = {10.1109/TAC.2024.3410890} 
+  doi          = {10.1109/TAC.2024.3410890},
+  abstract={Hierarchical decision making problems, such as bilevel programs and Stackelberg games, are attracting increasing interest in both the engineering and machine learning communities. Yet, existing solution methods lack either convergence guarantees or computational efficiency, due to the absence of smoothness and convexity. In this work, we bridge this gap by designing a first-order hypergradient-based algorithm for Stackelberg games and mathematically establishing its convergence using tools from nonsmooth analysis. To evaluate the \textit{hypergradient}, namely, the gradient of the upper-level objective, we develop an online scheme that simultaneously computes the lower-level equilibrium and its Jacobian. Crucially, this scheme exploits and preserves the original hierarchical and distributed structure of the problem, which renders it scalable and privacy-preserving. We numerically verify the computational efficiency and scalability of our algorithm on a large-scale hierarchical demand-response model.}
 }
 
 @inproceedings{belgioioso2020energy,
@@ -423,7 +457,8 @@
   pages={1324--1329},
   year={2020},
   organization={IEEE},
-  doi={10.23919/ECC51009.2020.9143658}
+  doi={10.23919/ECC51009.2020.9143658},
+  abstract={We consider the economic dispatch problem for a day-ahead, peer-to-peer (P2P) electricity market of prosumers (i.e., energy consumers who can also produce electricity) in a distribution network. In our model, each prosumer has the capability of producing power through its dispatchable or non-dispatchable generation units and/or has a storage energy unit. Furthermore, we consider a hybrid main grid & P2P market in which each prosumer can trade power both with the main grid and with (some of) the other prosumers. First, we cast the economic dispatch problem as a noncooperative game with coupling constraints. Then, we design a fully-scalable algorithm to steer the system to a generalized Nash equilibrium (GNE). Finally, we show through numerical studies that the proposed methodology has the potential to ensure safe and efficient operation of the power grid.}
 }
 
 @inproceedings{grontas2023designing,
@@ -434,7 +469,8 @@
   booktitle={2023 62nd IEEE Conference on Decision and Control (CDC)},
   pages={3142--3147},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={We study the problem of optimally routing plug-in electric and conventional fuel vehicles on a city level. In our model, commuters selfishly aim to minimize a local cost that combines travel time, from a fixed origin to a desired destination, and the monetary cost of using city facilities, parking or service stations. The traffic authority can influence the commuters' preferred routing choice by means of personalized discounts on parking tickets and on the energy price at service stations. We formalize the problem of designing these monetary incentives optimally as a large-scale bilevel game, where constraints arise at both levels due to the finite capacities of city facilities and incentives budget. Then, we develop an efficient decentralized solution scheme with convergence guarantees based on BIG Hype, a recently-proposed hypergradient-based algorithm for hierarchical games. Finally, we validate our model via numerical simulations over the Anaheim's network, and show that the proposed approach produces sensible results in terms of traffic decongestion and it is able to solve in minutes problems with more than 48000 variables and 110000 constraints.}
 }
 
 @inproceedings{zardini2023strategic,
@@ -445,7 +481,8 @@
   booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},
   pages={5452--5459},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={The evolution of existing transportation systems,mainly driven by urbanization and increased availability of mobility options, such as private, profit-maximizing ride-hailing companies, calls for tools to reason about their design and regulation. To study this complex socio-technical problem, one needs to account for the strategic interactions of the heterogeneous stakeholders involved in the mobility ecosystem and analyze how they influence the system. In this paper, we focus on the interactions between citizens who compete for the limited resources of a mobility system to complete their desired trip. Specifically, we present a game-theoretic framework for multi-modal mobility systems, where citizens, characterized by heterogeneous preferences, have access to various mobility options and seek individually-optimal decisions. We study the arising game and prove the existence of an equilibrium, which can be efficiently computed via a convex optimization problem. Through both an analytical and a numerical case study for the classic scenario of Sioux Falls, USA, we illustrate the capabilities of our model and perform sensitivity analyses. Importantly, we show how to embed our framework into a "larger" game among stakeholders of the mobility ecosystem (e.g., municipality, Mobility Service Providers, and citizens), effectively giving rise to tools to inform strategic interventions and policy-making in the mobility ecosystem.}
 }
 
 @inproceedings{belgioioso2023tutorial,
@@ -456,7 +493,8 @@
   booktitle={2023 62nd IEEE Conference on Decision and Control (CDC)},
   pages={3995--4002},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={Online feedback optimization (OFO) is an emerging control methodology for real-time optimal steady-state control of complex dynamical systems. This tutorial focuses on the application of OFO for the autonomous operation of large-scale transmission grids, with a specific goal of minimizing renewable generation curtailment and losses while satisfying voltage and current limits. When this control methodology is applied to multi-area transmission grids, where each area independently manages its congestion while being dynamically interconnected with the rest of the grid, a non-cooperative game arises. In this context, OFO must be interpreted as an online feedback equilibrium seeking (FES) scheme. Our analysis incorporates technical tools from game theory and monotone operator theory to evaluate the stability and performance of multi-area grid operation. Through numerical simulations, we illustrate the key challenge of this non-cooperative setting: on the one hand, independent multi-area decisions are suboptimal compared to a centralized control scheme; on the other hand, some areas are heavily penalized by the centralized decision, which may discourage participation in the coordination mechanism.}
 }
 
 @inproceedings{wang2024decentralized,
@@ -467,7 +505,8 @@
   booktitle={2024 European Control Conference (ECC)},
   pages={3201--3206},
   year={2024},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={Online feedback optimization is a controller design paradigm for optimizing the steady-state behavior of a dynamical system. It employs an optimization algorithm as a dynamic feedback controller and utilizes real-time measurements to bypass knowing exact plant dynamics and disturbances. Different from existing centralized settings, we present a fully decentralized feedback optimization controller for networked systems to lift the communication burden and improve scalability. We approximate the overall input-output sensitivity matrix through its diagonal elements, which capture local model information. For the closed-loop behavior, we characterize the stability and bound the sub-optimality due to decentralization. We prove that the proposed decentralized controller yields solutions that correspond to the Nash equilibria of a non-cooperative game.}
 }
 
 @inproceedings{belgioioso2019dynamic,
@@ -477,7 +516,8 @@
   booktitle={2019 IEEE 58th Conference on Decision and Control (CDC)},
   pages={5948--5954},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={We design a distributed algorithm for generalized Nash equilibrium seeking in aggregative games with linear coupling constraints under partial-decision information, i.e., the agents have no direct access to the aggregate decision. The algorithm is derived by including dynamic tracking together with a standard projected pseudo-gradient algorithm in a fully-distributed fashion. The convergence analysis of the algorithm relies on the framework of monotone operator splitting and Krasnosel’skii–Mann fixed-point iteration with errors.}
 }
 
 
@@ -489,7 +529,8 @@
   booktitle={2020 59th IEEE Conference on Decision and Control (CDC)},
   pages={2303--2308},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={We address the Nash equilibrium problem in a partial-decision information scenario, where each agent can only observe the actions of some neighbors, while its cost possibly depends on the strategies of other agents. Our main contribution is the design of a fully-distributed, single-layer, fixed-step algorithm, based on a proximal best-response augmented with consensus terms. To derive our algorithm, we follow an operator-theoretic approach. First, we recast the Nash equilibrium problem as that of finding a zero of a monotone operator. Then, we demonstrate that the resulting inclusion can be solved in a fully-distributed way via a proximal-point method, thanks to the use of a novel preconditioning matrix. Under strong monotonicity and Lipschitz continuity of the game mapping, We prove linear convergence of our algorithm to a Nash equilibrium. Furthermore, we show that our method outperforms the fastest known gradient-based schemes, both in terms of guaranteed convergence rate, via theoretical analysis, and in practice, via numerical simulations.}
 }
 
 @inproceedings{cenedese2019asynchronous,
@@ -500,7 +541,8 @@
   booktitle={2019 18th European Control Conference (ECC)},
   pages={3508--3513},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={In this paper, we propose an asynchronous distributed algorithm for the computation of generalized Nash equilibria in noncooperative games, where the players interact via an undirected communication graph. Specifically, we extend the paper "Asynchronous distributed algorithm for seeking generalized Nash equilibria" by Yi and Pavel: we redesign the asynchronous update rule using auxiliary variables over the nodes rather than over the edges. This key modification renders the algorithm scalable for highly interconnected games. The derived asynchronous algorithm is robust against delays in the communication and it eliminates the idle times between computations, hence modeling a more realistic interaction between players with different update frequencies. We address the problem from an operator-theoretic perspective and design the algorithm via a preconditioned forward-backward splitting. Finally, we numerically simulate the algorithm for the Cournot competition in networked markets.}
 }
 
 @article{dorfler2024towards,
@@ -511,7 +553,8 @@
   year={2024},
   preview={STA.png},
   publisher={IEEE},
-  doi = {10.1109/LCSYS.2024.3406943}
+  doi = {10.1109/LCSYS.2024.3406943},
+  abstract={Traditionally, numerical algorithms are seen as isolated pieces of code confined to an {\em in silico} existence. However, this perspective is not appropriate for many modern computational approaches in control, learning, or optimization, wherein {\em in vivo} algorithms interact with their environment. Examples of such {\em open algorithms} include various real-time optimization-based control strategies, reinforcement learning, decision-making architectures, online optimization, and many more. Further, even {\em closed} algorithms in learning or optimization are increasingly abstracted in block diagrams with interacting dynamic modules and pipelines. In this opinion paper, we state our vision on a to-be-cultivated {\em systems theory of algorithms} and argue in favor of viewing algorithms as open dynamical systems interacting with other algorithms, physical systems, humans, or databases. Remarkably, the manifold tools developed under the umbrella of systems theory are well suited for addressing a range of challenges in the algorithmic domain. We survey various instances where the principles of algorithmic systems theory are being developed and outline pertinent modeling, analysis, and design challenges.}
 }
 
 @article{wang2024online,
@@ -520,7 +563,8 @@
   arxiv={2403.19834},
   author={Wang, Wenbin and He, Zhiyu and Belgioioso, Giuseppe and Bolognani, Saverio and D{\"o}rfler, Florian},
   journal={2024 IEEE 63rd Conference on Decision and Control (CDC)},
-  year={2024}
+  year={2024},
+  abstract={Online feedback optimization (OFO) enables optimal steady-state operations of a physical system by employing an iterative optimization algorithm as a dynamic feedback controller. When the plant consists of several interconnected sub-systems, centralized implementations become impractical due to the heavy computational burden and the need to pre-compute system-wide sensitivities, which may not be easily accessible in practice. Motivated by these challenges, we develop a fully distributed model-free OFO controller, featuring consensus-based tracking of the global objective value and local iterative (projected) updates that use stochastic gradient estimates. We characterize how the closed-loop performance depends on the size of the network, the number of iterations, and the level of accuracy of consensus. Numerical simulations on a voltage control problem in a direct current power grid corroborate the theoretical findings.}
 }
 
 @article{hall2024stability,
@@ -534,7 +578,8 @@
   year={2026},
   selected = {true},
   preview = {RHG2.png},
-  doi={10.1109/TAC.2025.3647314}
+  doi={10.1109/TAC.2025.3647314},
+  abstract={Game-theoretic MPC (or Receding Horizon Games) is an emerging control methodology for multi-agent systems that generates control actions by solving a dynamic game with coupling constraints in a receding-horizon fashion. This control paradigm has recently received increasing attention in various application fields, including robotics, autonomous driving, traffic networks, and energy grids, due to its ability to model the competitive nature of self-interested agents with shared resources while incorporating future predictions, dynamic models, and constraints into the decision-making process. In this work, we present the first formal stability analysis based on dissipativity and monotone operator theory that is valid also for non-potential games. Specifically, we derive LMI-based certificates that ensure asymptotic stability and are numerically verifiable. Moreover, we show that, if the agents have decoupled dynamics, the numerical verification can be performed in a scalable manner. Finally, we present tuning guidelines for the agents' cost function weights to fulfill the certificates and, thus, ensure stability.}
 }
 
 @inproceedings{breukelman2024carbon,
@@ -545,7 +590,8 @@
   booktitle={2024 European Control Conference (ECC)},
   pages={798--803},
   year={2024},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={Over the past decade, the continuous surge in cloud computing demand has intensified data center workloads, leading to significant carbon emissions and driving the need for improving their efficiency and sustainability. This paper focuses on the optimal allocation problem of batch compute loads with temporal and spatial flexibility across a global network of data centers. We propose a bilevel game-theoretic solution approach that captures the inherent hierarchical relationship between supervisory control objectives, such as carbon reduction and peak shaving, and operational objectives, such as priority-aware scheduling. Numerical simulations with real carbon intensity data demonstrate that the proposed approach successfully reduces carbon emissions while simultaneously ensuring operational reliability and priority-aware scheduling.}
 }
 
 @inproceedings{zhang2024data,
@@ -567,7 +613,8 @@
   arxiv={2408.16899},
   preview={recommender.jpg},
   year={2026},
-  doi={10.1109/TAC.2025.3616262}
+  doi={10.1109/TAC.2025.3616262},
+  abstract={Personalized content on social platforms can exacerbate negative phenomena such as polarization, partly due to the feedback interactions between recommendations and the users. In this paper, we present a control-theoretic recommender system that explicitly accounts for this feedback loop to mitigate polarization. Our approach extends online feedback optimization - a control paradigm for steady-state optimization of dynamical systems - to develop a recommender system that trades off users engagement and polarization reduction, while relying solely on online click data. We establish theoretical guarantees for optimality and stability of the proposed design and validate its effectiveness via numerical experiments with a user population governed by Friedkin-Johnsen dynamics. Our results show these "network-aware" recommendations can significantly reduce polarization while maintaining high levels of user engagement.}
 }
 
 @article{hall2024carbon,
@@ -579,7 +626,8 @@
   year={2025},
   preview={google.png},
   pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11250739},
-  selected={true}
+  selected={true},
+  abstract={Data centers are significant contributors to carbon emissions and can strain power systems due to their high electricity consumption. To mitigate this impact and to participate in demand response programs, cloud computing companies strive to balance and optimize operations across their global fleets by making strategic decisions about when and where to place compute jobs for execution. In this paper, we introduce a load shaping scheme which reacts to time-varying grid signals by leveraging both temporal and spatial flexibility of compute jobs to provide risk-aware management guidelines and job placement with provable performance guarantees based on distributionally robust optimization. Our approach divides the problem into two key components: (i) day-ahead planning, which generates an optimal scheduling strategy based on historical load data, and (ii) real-time job placement and (time) scheduling, which dynamically tracks the optimal strategy generated in (i). We validate our method in simulation using normalized load profiles from randomly selected Google clusters, incorporating time-varying grid signals. We can demonstrate significant reductions in carbon cost and peak power with our approach compared to myopic greedy policies, while maintaining computational efficiency and abiding to system and grid constraints.}
 }
 
 @inproceedings{grontas2024optimal,
@@ -590,7 +638,8 @@
   pages={295--311},
   year={2024},
   organization={Springer},
-  preview={SYSDO24.jpeg}
+  preview={SYSDO24.jpeg},
+  abstract={This paper proposes a novel hierarchical energy market design modeling the interactions between a distribution system operator (DSO) and a community of smart prosumers equipped with renewable energy generation and energy storage devices. The DSO sets dynamic energy prices to optimize its revenue, whereas prosumers strategize their energy procurement and the operational schedules of their storage devices to minimize costs. We formalize the problem of designing optimal dynamic energy prices as a large-scale Stackelberg game and deploy BIG Hype, a novel first-order algorithm, to obtain a locally optimal solution. Finally, we show via numerical simulations that the increased flexibility of our market design yields substantial economic advantages to the DSO, and that the proposed solution approach is effective even in scenarios involving a large prosumers base.}
 }
 
 @inproceedings{zardini2022compositional,
@@ -612,7 +661,8 @@
   preview={marino.png},
   pdf={https://openreview.net/pdf?id=Q4tpr9bnXU},
   code = {https://github.com/m-kuehne/BeeRS},
-  url={https://openreview.net/forum?id=Q4tpr9bnXU}
+  url={https://openreview.net/forum?id=Q4tpr9bnXU},
+  abstract={Although social networks have expanded the range of ideas and information accessible to users, they are also criticized for amplifying the polarization of user opinions. Given the inherent complexity of these phenomena, existing approaches to counteract these effects typically rely on handcrafted algorithms and heuristics. We propose an elegant solution: we act on the network weights that model user interactions on social networks (e.g., frequency of communication), to optimize a performance metric (e.g., polarization reduction), while users' opinions follow the classical Friedkin-Johnsen model. Our formulation gives rise to a challenging large-scale optimization problem with non-convex constraints, for which we develop a gradient-based algorithm. Our scheme is simple, scalable, and versatile, as it can readily integrate different, potentially non-convex, objectives. We demonstrate its merit by: (i) rapidly solving complex social network intervention problems with 3 million variables based on the Reddit and DBLP datasets; (ii) significantly outperforming competing approaches in terms of both computation time and disagreement reduction.}
 }
 
 
@@ -624,6 +674,7 @@
   year={2025},
   arxiv={2508.05378},
   doi={10.1109/CDC57313.2025.11312860},
-  preview={swiss.jpg}
+  preview={swiss.jpg},
+  abstract={The integration of distributed energy resources into transmission grid operations presents a complex challenge, particularly in the context of reactive power procurement for voltage support. This paper addresses this challenge by formulating the voltage regulation problem as a Stackelberg game, where the Transmission System Operator (TSO) designs incentives to guide the reactive power responses of Distribution System Operators (DSOs). We utilize a gradient-based iterative algorithm that updates the incentives to ensure that DSOs adjust their reactive power injections to maintain voltage stability. We incorporate principles from online feedback optimization to enable real-time implementation, utilizing voltage measurements in both TSO's and DSOs' policies. This approach not only enhances the robustness against model uncertainties and changing operating conditions but also facilitates the co-design of incentives and automation. Numerical experiments on a 5-bus transmission grid demonstrate the effectiveness of our approach in achieving voltage regulation while accommodating the strategic interactions of self-interested DSOs.}
 }
 
