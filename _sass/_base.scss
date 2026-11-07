@@ -1468,3 +1468,10 @@ figure.cover {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   }
 }
+
+// The university-building glyph fills its whole box, so it looks larger than
+// the other social icons at the same font size; shrink it to match visually.
+.fa-building-columns {
+  font-size: 0.82em;
+  vertical-align: 0.06em;
+}
