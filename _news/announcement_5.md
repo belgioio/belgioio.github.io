@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-09-01 
+date: 2025-09-01
 inline: true
 related_posts: false
 ---
 
-I'm attending the [Swiss Clock Summit](https://www.swissclocksummit.com/) in the beautiful Engelberg 🇨🇭 Catch me around the workshop for a chat about research or upcoming job opportunities in my team ;)
+🇨🇭 Attending the [Swiss Clock Summit](https://www.swissclocksummit.com/) in Engelberg. Come chat about research or open positions in my team!

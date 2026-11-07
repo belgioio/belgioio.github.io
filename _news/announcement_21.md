@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🌋 With 48 registered participants, our workshop "Systems Theory of Optimization, Learning, and Control Algorithms" was the largest at ECC 2026! Check out the slides [here](https://sites.google.com/view/sta-ecc-2026-workshop/slides).
+🌋 With 48 participants, our workshop on Systems Theory of Algorithms was the largest at ECC 2026! [Slides here](https://sites.google.com/view/sta-ecc-2026-workshop/slides).
