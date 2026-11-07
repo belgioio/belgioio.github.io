@@ -14,7 +14,7 @@ nav_order: 4
 #   name:     full name
 #   img:      photo file in assets/img/people/ (square-ish works best)
 #   website:  personal page, LinkedIn or KTH profile (optional)
-#   category: phd | postdoc | ra | visitor | alumni
+#   category: phd | postdoc | visitor | alumni
 #   order:    position within the section (lower comes first)
 #   note:     e.g. "co-advised with ..." (optional)
 sections:
@@ -22,8 +22,6 @@ sections:
     title: Doctoral candidates
   - key: postdoc
     title: Postdoctoral researchers
-  - key: ra
-    title: Research assistants
   - key: visitor
     title: Long-term visitors
   - key: alumni
