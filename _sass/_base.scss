@@ -1475,3 +1475,11 @@ figure.cover {
   font-size: 0.82em;
   vertical-align: 0.06em;
 }
+
+// Home-page news: the box shows the latest items (height set by
+// _includes/news.liquid) and older ones scroll into view.
+.news-scroll {
+  position: relative;
+  max-height: 24rem;
+  overflow-y: auto;
+}

@@ -1,10 +1,19 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
+    {% comment %}
+      On the home page, `announcements.visible` items are shown and the rest are
+      reached by scrolling inside the box (its height is fitted to those rows).
+    {% endcomment %}
+    {% assign news_visible = page.announcements.visible | default: 6 %}
+    {% assign news_scroll = false %}
+    {% if include.limit and page.announcements.scrollable and news_size > news_visible %}
+      {% assign news_scroll = true %}
+    {% endif %}
     <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+      class="table-responsive{% if news_scroll %} news-scroll{% endif %}"
+      {% if news_scroll %}
+        data-visible="{{ news_visible }}"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
@@ -28,6 +37,23 @@
         {% endfor %}
       </table>
     </div>
+    {% if news_scroll %}
+      <script>
+        // Fit the news box to its first N rows; older items scroll into view.
+        (function () {
+          const box = document.currentScript.previousElementSibling;
+          const fit = function () {
+            const rows = box.querySelectorAll("tr");
+            const n = parseInt(box.dataset.visible, 10);
+            if (rows.length <= n) return;
+            box.style.maxHeight = rows[n].offsetTop + "px";
+          };
+          fit();
+          window.addEventListener("load", fit);
+          window.addEventListener("resize", fit);
+        })();
+      </script>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}
