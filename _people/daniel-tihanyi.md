@@ -1,6 +1,6 @@
 ---
 name: "Daniel Tihanyi"
-img: daniel.png
+img: daniel.jpg
 website: https://www.linkedin.com/in/tihanyidani/
 category: phd
 order: 1
