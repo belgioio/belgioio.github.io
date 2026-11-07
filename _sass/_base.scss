@@ -732,13 +732,25 @@ footer.sticky-bottom {
 
       // Same-size thumbnails for every paper: fixed 4:3 box, whole figure
       // visible (no cropping), white backdrop so plots read in dark mode.
-      .preview {
+      // The image keeps its own aspect ratio; clicking opens the original.
+      .preview-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
-        height: auto !important;
         aspect-ratio: 4 / 3;
-        object-fit: contain;
-        background-color: #fff;
         padding: 4px;
+        background-color: #fff;
+        overflow: hidden;
+        cursor: zoom-in;
+      }
+
+      .preview {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
       }
 
       .abbr {
@@ -1424,5 +1436,35 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+// Full-size view of a publication figure (assets/js/preview-lightbox.js).
+.preview-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  cursor: zoom-out;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+
+  &.open {
+    opacity: 1;
+  }
+
+  img {
+    max-width: min(1100px, 100%);
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   }
 }
