@@ -149,9 +149,8 @@ collections:
     output: true
   projects:
     output: true
-  team:
-    output: true
-    permalink: /team/:name/
+  people: # one file per team member in _people/, shown on /people/
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

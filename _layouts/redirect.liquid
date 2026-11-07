@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% assign target = page.redirect | relative_url %}
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
+    <link rel="canonical" href="{{ target | absolute_url }}">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ target }}">
+    <script>
+      location.replace('{{ target }}' + location.hash);
+    </script>
+  </head>
+  <body>
+    <p>This page has moved to <a href="{{ target }}">{{ target | absolute_url }}</a>.</p>
+  </body>
+</html>
