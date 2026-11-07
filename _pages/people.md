@@ -13,7 +13,7 @@ nav_order: 4
 # To add someone, copy any file in _people/ and edit it:
 #   name:     full name
 #   img:      photo file in assets/img/people/ (square-ish works best)
-#   url:      personal page, LinkedIn or KTH profile (optional)
+#   website:  personal page, LinkedIn or KTH profile (optional)
 #   category: phd | postdoc | ra | visitor | alumni
 #   order:    position within the section (lower comes first)
 #   note:     e.g. "co-advised with ..." (optional)

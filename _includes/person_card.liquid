@@ -10,8 +10,8 @@
     >
     <div class="card-body px-0">
       <h5 class="card-title mb-1">
-        {% if person.url %}
-          <a href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>
+        {% if person.website %}
+          <a href="{{ person.website }}" target="_blank" rel="noopener">{{ person.name }}</a>
         {% else %}
           {{ person.name }}
         {% endif %}
