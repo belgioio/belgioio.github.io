@@ -127,11 +127,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/emilio-benenati/";
-            },},{id: "people-jinyu-han",
-          title: 'Jinyu Han',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jinyu-han/";
             },},{id: "people-joas-kahlert",
           title: 'Joas Kahlert',
           description: "",
@@ -157,11 +152,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/manqi-xu/";
-            },},{id: "people-theresa-johansson",
-          title: 'Theresa Johansson',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/theresa-johansson/";
             },},{id: "people-tommaso-zaccherini",
           title: 'Tommaso Zaccherini',
           description: "",
