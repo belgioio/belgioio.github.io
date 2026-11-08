@@ -43,8 +43,7 @@ group_photo_caption: KTH campus, Stockholm, June 2025
       </div>
     {% endif %}
   {% endfor %}
-
-{% if page.group_photo %}
+  {% if page.group_photo %}
     <figure class="mt-5" style="margin-bottom: 2rem;">
       <img
         src="{{ page.group_photo | prepend: 'assets/img/people/' | relative_url }}"
@@ -56,5 +55,5 @@ group_photo_caption: KTH campus, Stockholm, June 2025
         {{ page.group_photo_caption }}
       </figcaption>
     </figure>
-{% endif %}
+  {% endif %}
 </div>
