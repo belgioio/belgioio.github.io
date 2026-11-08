@@ -3,11 +3,11 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Giuseppe  
-middle_name: 
+first_name: Giuseppe
+middle_name:
 last_name: Belgioioso
 contact_note: >
-  Check out my scholar profile for a complete list of publications, and my LinkedIn for the latest news and job openings. 
+  Check out my scholar profile for a complete list of publications, and my LinkedIn for the latest news and job openings.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Giuseppe Belgioioso is an Assistant Professor at KTH Royal Institute of Technology in Stockholm, working on control, optimization, and game theory for large-scale infrastructures such as power grids and transportation networks.
 footer_text: >

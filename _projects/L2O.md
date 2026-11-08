@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learn2play 
+title: Learn2play
 description: Learning to optimize for real-time control and coordination in multi-agent systems  | Digital Futures
 img: assets/img/L2P.jpg
 importance: 1

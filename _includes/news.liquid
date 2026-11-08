@@ -43,14 +43,14 @@
         (function () {
           const box = document.currentScript.previousElementSibling;
           const fit = function () {
-            const rows = box.querySelectorAll("tr");
+            const rows = box.querySelectorAll('tr');
             const n = parseInt(box.dataset.visible, 10);
             if (rows.length <= n) return;
-            box.style.maxHeight = rows[n].offsetTop + "px";
+            box.style.maxHeight = rows[n].offsetTop + 'px';
           };
           fit();
-          window.addEventListener("load", fit);
-          window.addEventListener("resize", fit);
+          window.addEventListener('load', fit);
+          window.addEventListener('resize', fit);
         })();
       </script>
     {% endif %}

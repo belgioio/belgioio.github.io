@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Twin-Ship 
+title: Twin-Ship
 description: Digital Twin-based Risk-informed Decision Support for Green Shipping | Digital Futures
 img: assets/img/cargoD.jpg
 importance: 1
