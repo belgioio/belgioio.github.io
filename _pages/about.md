@@ -32,9 +32,9 @@ latest_posts:
 
 ### About me
 
-I am an Assistant Professor at the department of Decision and Control Systems (DCS) at KTH Royal Institute of Technology in Stockholm. I am also a Digital Futures Faculty and a Wallenberg AI, Autonomous Systems and Software Program (WASP) Fellow.
+I am an Assistant Professor at the department of [Decision and Control Systems (DCS)](https://www.kth.se/dcs/) at KTH Royal Institute of Technology in Stockholm. I am also a [Digital Futures](https://www.digitalfutures.kth.se/) Faculty and a [Wallenberg AI, Autonomous Systems and Software Program (WASP)](https://wasp-sweden.org/) Fellow.
 
-Previously, I was a Senior Scientist at the Automatic Control Laboratory (ifA) at ETH Zurich, and an affiliated researcher at the National Centre of Competence in Research on Dependable, Ubiquitous (NCCR) Automation in Zurich, Switzerland.  
+Previously, I was a Senior Scientist at the [Automatic Control Laboratory (IfA)](https://control.ee.ethz.ch/) at ETH Zurich, and an affiliated researcher at the [National Centre of Competence in Research on Dependable, Ubiquitous (NCCR) Automation](https://nccr-automation.ch/) in Zurich, Switzerland.
 
 ### My research
 
