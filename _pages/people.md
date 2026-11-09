@@ -27,8 +27,13 @@ sections:
   - key: alumni
     title: Alumni
 
-group_photo: group_bw.JPG
-group_photo_caption: KTH campus, Stockholm, June 2025
+group_title: ZERO Lab, Dept. of Decision and Control Systems, KTH
+# Group photos, shown under group_title (newest first). Files are in assets/img/people/.
+group_photos:
+  - file: group_christmas2025.jpg
+    caption: Christmas Dinner & Games, Hagaparken, December 2025
+  - file: group_bw.JPG
+    caption: KTH campus, Stockholm, June 2025
 ---
 
 <div class="container">
@@ -43,17 +48,20 @@ group_photo_caption: KTH campus, Stockholm, June 2025
       </div>
     {% endif %}
   {% endfor %}
-  {% if page.group_photo %}
-    <figure class="mt-5" style="margin-bottom: 2rem;">
-      <img
-        src="{{ page.group_photo | prepend: 'assets/img/people/' | relative_url }}"
-        alt="{{ page.group_photo_caption }}"
-        loading="lazy"
-        style="width: 100%; height: auto; object-fit: cover;"
-      >
-      <figcaption style="text-align: center; font-size: 0.9em; color: #6c757d; margin-top: 0.5rem;">
-        {{ page.group_photo_caption }}
-      </figcaption>
-    </figure>
+  {% if page.group_photos %}
+    <h4 class="mt-5">{{ page.group_title }}</h4>
+    {% for photo in page.group_photos %}
+      <figure class="mt-4" style="margin-bottom: 2rem;">
+        <img
+          src="{{ photo.file | prepend: 'assets/img/people/' | relative_url }}"
+          alt="{{ photo.caption }}"
+          loading="lazy"
+          style="display: block; max-width: 100%; max-height: 80vh; width: auto; height: auto; margin: 0 auto;"
+        >
+        <figcaption style="text-align: center; font-size: 0.9em; color: #6c757d; margin-top: 0.5rem;">
+          {{ photo.caption }}
+        </figcaption>
+      </figure>
+    {% endfor %}
   {% endif %}
 </div>
