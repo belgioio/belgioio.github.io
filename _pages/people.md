@@ -28,12 +28,12 @@ sections:
     title: Alumni
 
 group_title: ZERO Lab, Dept. of Decision and Control Systems, KTH
-# Group photos, shown under group_title (newest first). Files are in assets/img/people/.
+# Group photos, shown under group_title (in the order listed). Files are in assets/img/people/.
 group_photos:
-  - file: group_christmas2025.jpg
-    caption: Christmas Dinner & Games, Hagaparken, December 2025
   - file: group_bw.JPG
     caption: KTH campus, Stockholm, June 2025
+  - file: group_christmas2025.jpg
+    caption: Christmas Dinner & Games, Hagaparken, December 2025
 ---
 
 <div class="container">
@@ -56,7 +56,7 @@ group_photos:
           src="{{ photo.file | prepend: 'assets/img/people/' | relative_url }}"
           alt="{{ photo.caption }}"
           loading="lazy"
-          style="display: block; max-width: 100%; max-height: 80vh; width: auto; height: auto; margin: 0 auto;"
+          style="display: block; width: 100%; height: auto;"
         >
         <figcaption style="text-align: center; font-size: 0.9em; color: #6c757d; margin-top: 0.5rem;">
           {{ photo.caption }}
