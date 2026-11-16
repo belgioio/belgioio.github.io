@@ -34,6 +34,8 @@ group_photos:
     caption: KTH campus, Stockholm, June 2025
   - file: group_christmas2025.jpg
     caption: Christmas Dinner & Games, Hagaparken, December 2025
+  - file: group_marinarium2026.jpg
+    caption: KTH Marinarium, Stockholm, November 2026
 ---
 
 <div class="container">
