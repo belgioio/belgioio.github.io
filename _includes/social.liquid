@@ -1,4 +1,6 @@
+{% assign excluded_socials = include.exclude | default: '' | split: ',' %}
 {% for social in site.data.socials %}
+  {% if excluded_socials contains social[0] %}{% continue %}{% endif %}
   {% case social[0] %}
     {% when 'acm_id' %}
       <a href="https://dl.acm.org/profile/{{ social[1] }}/" title="ACM DL"><i class="ai ai-acm"></i></a>
